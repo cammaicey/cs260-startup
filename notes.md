@@ -50,15 +50,15 @@ Section Links
 Relative Links
     -define relative likns and image paths in rendered files
     -relative link is a link that is relative to the current file
-        -[This file is relative to this]**()** <-- put link or path here
+        -`[This file is relative to this]()` <-- put link or path here
     -the path of the link will be relative to current file
-    -links starting with **/** will be relative to repo root
-    -canuse all relative link operands like **./** and **../**
+    -links starting with `/` will be relative to repo root
+    -canuse all relative link operands like `./` and `../`
     -relative links are easier for users who clone repos
         -should use relative when refering to other files within reop
 
 Images
-    -display images by adding **!** and wrapping alt text in **[]** then wrap link for image in **()**
+    -display images by adding `!` and wrapping alt text in `[]` then wrap link for image in `()`
         -alt text == short text with info about the image
 
 Specifying Theme an Image is Shown to
@@ -75,3 +75,30 @@ Specifying Theme an Image is Shown to
 Lists
     -unorder list by preceding or more lines of with **-, *, or +**
     -to order precede with numbers
+
+Nested Lists
+    -create indented list by indenting one or more list items blow another
+    -theorectically the below stuff should work
+    1. List Item
+        -nested list item
+            -more nested list item
+    -this should look like bullet points
+    -you could add a nested list item under the list item 100. First list item by indenting the nested list item a minimum of five spaces **100. First list item (enter then indent) -first nested list item**
+
+Task Lists
+    -making a task list `- [] Finish CS Homework` to make complete do `- [x] Finish CS Homework`
+    - if task list item begins with parenthesis, escape with backspace
+    `- [] \(optional) open follow up issue`
+
+Mentioning People and Teams
+    - type `@` + username or team name
+        -triggers a notification
+    -mentioning a parent team also notifys child teams
+    - `@` will bring up list of everyone on the project
+
+Referencing Issues and Pull Requests
+    -type `#` pulls up list of suggested issues and pulls requests
+    -type issue or pull request num or title to filter, press tab or enter to complete highlighted result
+
+Referencing External Resources
+    -If custom autolink references are configured for a repository, then references to external resources, like a JIRA issue or Zendesk ticket, convert into shortened links
