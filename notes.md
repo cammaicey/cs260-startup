@@ -120,3 +120,27 @@ Footnotes
 
     [^1]: The footnote!
     ```
+
+Alerts
+    -extension of blockquote syntax
+    -three type of alerts
+    ```
+    > [!NOTE]
+    > You're Awesome!
+
+    > [!IMPORTANT]
+    > RUN
+
+    > [!WARNING]
+    > Are you sure you want to continue?```
+
+Hiding Content W/ Comments
+    - `<!-- hiden -->`
+
+Ignoring Markdown Formatting
+    - `\`
+    - `Let's rename \*our-new-project\* to \*our-old-project\*.`
+
+Disable Markdown Rendering
+    -click `<>` at top of file to disable
+    -this allows you to use source view features
