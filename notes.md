@@ -13,10 +13,12 @@ making two or more github will make table of contents
     -all bold and italic  --> ***Italically bold***
     -subscript --> Subscript<sub>text</sub>
     -superscript --> What'<sup>sup</sup>
+
 #Quoting Text
     -quote using >
         > My true mentor, my guiding moonlight.
     -automatically quote text in a comment by typing R or quote entire comment by clicking the three dots then quote reply
+
 #Quoting Code
     -back ticks --> `git status` shows what files you need to commit
     -use triple back ticks to put code into a distinct block
@@ -26,6 +28,7 @@ making two or more github will make table of contents
       git add .
       git commit
       ```
+
 #Supported Color Models
     -you use back ticks to call out colors
         -supported color models will display the color next to the color info
@@ -34,6 +37,7 @@ making two or more github will make table of contents
         -This is orange in HSL `hsl(38.8, 100%, 50%)`
         -supported color models can't have leading or trailing spaces in back ticks
         -visualzation onlt supported in issues, pull requests, and discussions
+
 #Links
     -create an inline link by wrapping text in brackets then wrap url in paraenthesis
         -[Main Page of my Repo](https://github.com/cammaicey/startup)
@@ -42,6 +46,7 @@ making two or more github will make table of contents
     -to replace text with the link **command + shift + v**
 #Section Links
     -link directly to a section in a rendered file by hovering over sec head to expose link symbol
+
 #Relative Links
     -define relative likns and image paths in rendered files
     -relative link is a link that is relative to the current file
@@ -51,9 +56,11 @@ making two or more github will make table of contents
     -canuse all relative link operands like **./** and **../**
     -relative links are easier for users who clone repos
         -should use relative when refering to other files within reop
+
 #Images
     -display images by adding **!** and wrapping alt text in **[]** then wrap link for image in **()**
         -alt text == short text with info about the image
+        
 #Specifying Theme an Image is Shown to
     -aka choosing if you want light or dark mode
     - An example from github
