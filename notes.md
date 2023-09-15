@@ -1,6 +1,6 @@
 Headings
-    -to create a heading add one to six "#" this determines the hierarchy and typeface size (less = bigger size and higher up)
-    -making two or more github will make table of contents
+    *to create a heading add one to six `#` this determines the hierarchy and typeface size (less = bigger size and higher up)
+    *making two or more github will make table of contents
 
 Styling Text
     -bold, italics, strikethrough, etc
@@ -120,7 +120,7 @@ Footnotes
     Footnote[^1]
 
     [^1]: The footnote!
-    
+
     ```
 
 Alerts
@@ -140,7 +140,7 @@ Alerts
     ```
 
 Hiding Content W/ Comments
-    - `<!-- hiden -->`
+    - `<!-- hidden -->`
 
 Ignoring Markdown Formatting
     - `\`
