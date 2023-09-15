@@ -1,12 +1,12 @@
 #Headings
-to create a heading add one to six "#" this determines the hierarchy and typeface size (less = bigger size and higher up)
-making two or more github will make table of contents
+    -to create a heading add one to six "#" this determines the hierarchy and typeface size (less = bigger size and higher up)
+    -making two or more github will make table of contents
 
 #Styling Text
-    bold, italics, strikethrough, etc
-    bold == ** ** or __ __ --> **Bold**
+    -bold, italics, strikethrough, etc
+    -bold == ** ** or __ __ --> **Bold**
         -ctrl + b
-    italics == * * or _ _ --> _Italic_
+    -italics == * * or _ _ --> _Italic_
         -ctrl + i
     -strikethrough == ~~ ~~ --> ~~Strike~~
     -bold and nested italic --> **How _bold_ of you**
@@ -71,3 +71,11 @@ making two or more github will make table of contents
         <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
     </picture>
     ```
+
+#Lists
+    -unorder list by preceding or more lines of with **-, *, or +**
+    -to order preced with numbers
+    -example
+        1. step one
+        1. step two
+        1. step three
