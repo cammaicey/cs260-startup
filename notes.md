@@ -120,13 +120,14 @@ Footnotes
     Footnote[^1]
 
     [^1]: The footnote!
+    
     ```
 
 Alerts
     -extension of blockquote syntax
     ```
     Three Type of Alerts
-    
+
     > [!NOTE]
     > You're Awesome!
 
@@ -134,7 +135,9 @@ Alerts
     > RUN
 
     > [!WARNING]
-    > Are you sure you want to continue?```
+    > Are you sure you want to continue?
+    
+    ```
 
 Hiding Content W/ Comments
     - `<!-- hiden -->`
