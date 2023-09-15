@@ -2,7 +2,7 @@
 * to create a heading add one to six `#` this determines the hierarchy and typeface size (less = bigger size and higher up)
 * making two or more github will make table of contents
 
-Styling Text
+# Styling Text
 * bold, italics, strikethrough, etc
 * bold == ** ** or __ __ --> **Bold**
     - ctrl + b
@@ -14,12 +14,12 @@ Styling Text
 * subscript --> Subscript<sub>text</sub>
 * superscript --> What'<sup>sup</sup>
 
-Quoting Text
+# Quoting Text
 * quote using `>`
      > My true mentor, my guiding moonlight.
 * automatically quote text in a comment by typing R or quote entire comment by clicking the three dots then quote reply
 
-Quoting Code
+# Quoting Code
 * back ticks --> `git status` shows what files you need to commit
 * use triple back ticks to put code into a distinct block
 * Basic Git Commands
@@ -29,7 +29,7 @@ git add .
 git commit
 ```
 
-Supported Color Models
+# Supported Color Models
 * you use back ticks to call out colors
     - supported color models will display the color next to the color info
     - This is dark blue in HEX `#00008B`.
@@ -38,17 +38,17 @@ Supported Color Models
     - supported color models can't have leading or trailing spaces in back ticks
     - visualzation onlt supported in issues, pull requests, and discussions
 
-Links
+# Links
 * create an inline link by wrapping text in brackets then wrap url in paraenthesis
     - [Main Page of my Repo](https://github.com/cammaicey/startup)
     - command + k to create link
 * markdown hyplink by highlighting the text & **command + v**
 * to replace text with the link **command + shift + v**
 
-Section Links
+# Section Links
 * link directly to a section in a rendered file by hovering over sec head to expose link symbol
 
-Relative Links
+# Relative Links
 * define relative likns and image paths in rendered files
 * relative link is a link that is relative to the current file
     - `[This file is relative to this]()` <-- put link or path here
@@ -58,11 +58,11 @@ Relative Links
 * relative links are easier for users who clone repos
     - should use relative when refering to other files within reop
 
-Images
+# Images
 * display images by adding `!` and wrapping alt text in `[]` then wrap link for image in `()`
     - alt text == short text with info about the image
 
-Specifying Theme an Image is Shown to
+# Specifying Theme an Image is Shown to
 * aka choosing if you want light or dark mode
 * An example from github
 ```
@@ -73,46 +73,46 @@ Specifying Theme an Image is Shown to
 </picture>
 ```
 
-Lists
+# Lists
 * unorder list by preceding or more lines of with **-, *, or +**
 * to order precede with numbers
 
-Nested Lists
+# Nested Lists
 * create indented list by indenting one or more list items blow another
 1. List Item
     - nested list item
         - more nested list item
 * you could add a nested list item under the list item 100. First list item by indenting the nested list item a minimum of five spaces **100. First list item (enter then indent) -first nested list item**
 
-Task Lists
+# Task Lists
 * making a task list `- [] Finish CS Homework` to make complete do `- [x] Finish CS Homework`
 - if task list item begins with parenthesis, escape with backspace
 `- [] \(optional) open follow up issue`
 
-Mentioning People and Teams
+# Mentioning People and Teams
 - type `@` + username or team name
     - triggers a notification
 - mentioning a parent team also notifys child teams
 - `@` will bring up list of everyone on the project
 
-Referencing Issues and Pull Requests
+# Referencing Issues and Pull Requests
 - type `#` pulls up list of suggested issues and pulls requests
 - type issue or pull request num or title to filter, press tab or enter to complete highlighted result
 
-Referencing External Resources
+# Referencing External Resources
 - If custom autolink references are configured for a repository, then references to external resources, like a JIRA issue or Zendesk ticket, convert into shortened links
 
-Uploading Assest
+# Uploading Assest
 - drag and drop, select from file browser, pasting
 - can upload asset issues. pull requests, comments, `.md` files in repo
 
-Emojis
+# Emojis
 - type `:EMOJICODE` --> typing `:` brings up a list of emojis
 
-Paragraphs
+# Paragraphs
 - leave blank line between lines of text
 
-Footnotes
+# Footnotes
 - use bracket syntax
 ```
 Footnote[^1]
@@ -120,7 +120,7 @@ Footnote[^1]
 [^1]: The footnote!
 ```
 
-Alerts
+# Alerts
 - extension of blockquote syntax
 ```
 Three Type of Alerts
@@ -134,13 +134,13 @@ Three Type of Alerts
 > Are you sure you want to continue?
 ```
 
-Hiding Content W/ Comments
+# Hiding Content W/ Comments
 - `<!-- hidden -->`
 
-Ignoring Markdown Formatting
+# Ignoring Markdown Formatting
 - `\`
 - `Let's rename \*our-new-project\* to \*our-old-project\*.`
 
-Disable Markdown Rendering
+# Disable Markdown Rendering
 - click `<>` at top of file to disable
 - this allows you to use source view features
