@@ -1,4 +1,4 @@
-#Headings
+Headings
     -to create a heading add one to six "#" this determines the hierarchy and typeface size (less = bigger size and higher up)
     -making two or more github will make table of contents
 
