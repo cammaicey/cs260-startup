@@ -2,7 +2,7 @@
     -to create a heading add one to six "#" this determines the hierarchy and typeface size (less = bigger size and higher up)
     -making two or more github will make table of contents
 
-#Styling Text
+Styling Text
     -bold, italics, strikethrough, etc
     -bold == ** ** or __ __ --> **Bold**
         -ctrl + b
@@ -14,12 +14,12 @@
     -subscript --> Subscript<sub>text</sub>
     -superscript --> What'<sup>sup</sup>
 
-#Quoting Text
+Quoting Text
     -quote using >
         > My true mentor, my guiding moonlight.
     -automatically quote text in a comment by typing R or quote entire comment by clicking the three dots then quote reply
 
-#Quoting Code
+Quoting Code
     -back ticks --> `git status` shows what files you need to commit
     -use triple back ticks to put code into a distinct block
     - Basic Git Commands
@@ -29,7 +29,7 @@
       git commit
       ```
 
-#Supported Color Models
+Supported Color Models
     -you use back ticks to call out colors
         -supported color models will display the color next to the color info
         -This is dark blue in HEX `#00008B`.
@@ -38,16 +38,16 @@
         -supported color models can't have leading or trailing spaces in back ticks
         -visualzation onlt supported in issues, pull requests, and discussions
 
-#Links
+Links
     -create an inline link by wrapping text in brackets then wrap url in paraenthesis
         -[Main Page of my Repo](https://github.com/cammaicey/startup)
         -command + k to create link
     -markdown hyplink by highlighting the text & **command + v**
     -to replace text with the link **command + shift + v**
-#Section Links
+Section Links
     -link directly to a section in a rendered file by hovering over sec head to expose link symbol
 
-#Relative Links
+Relative Links
     -define relative likns and image paths in rendered files
     -relative link is a link that is relative to the current file
         -[This file is relative to this]**()** <-- put link or path here
@@ -57,11 +57,11 @@
     -relative links are easier for users who clone repos
         -should use relative when refering to other files within reop
 
-#Images
+Images
     -display images by adding **!** and wrapping alt text in **[]** then wrap link for image in **()**
         -alt text == short text with info about the image
 
-#Specifying Theme an Image is Shown to
+Specifying Theme an Image is Shown to
     -aka choosing if you want light or dark mode
     - An example from github
     ```
@@ -74,8 +74,4 @@
 
 Lists
     -unorder list by preceding or more lines of with **-, *, or +**
-    -to order preced with numbers
-    -example
-        1. step one
-        1. step two
-        1. step three
+    -to order precede with numbers
