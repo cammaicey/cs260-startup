@@ -1,11 +1,12 @@
 #Headings
-    -to create a heading add one to six "#" this determines the hierarchy and typeface size (less = bigger size and higher up)
-    -making two or more github will make table of contents
+    to create a heading add one to six "#" this determines the hierarchy and typeface size (less = bigger size and higher up)
+    making two or more github will make table of contents
+
 #Styling Text
-    -bold, italics, strikethrough, etc
-    -bold == ** ** or __ __ --> **Bold**
+    bold, italics, strikethrough, etc
+    bold == ** ** or __ __ --> **Bold**
         -ctrl + b
-    -italics == * * or _ _ --> _Italic_
+    italics == * * or _ _ --> _Italic_
         -ctrl + i
     -strikethrough == ~~ ~~ --> ~~Strike~~
     -bold and nested italic --> **How _bold_ of you**
@@ -44,9 +45,20 @@
 #Relative Links
     -define relative likns and image paths in rendered files
     -relative link is a link that is relative to the current file
-        -[This file is relative to this]() <-- put link or path here
+        -[This file is relative to this]**()** <-- put link or path here
     -the path of the link will be relative to current file
     -links starting with **/** will be relative to repo root
     -canuse all relative link operands like **./** and **../**
     -relative links are easier for users who clone repos
         -should use relative when refering to other files within reop
+#Images
+    -display images by adding **!** and wrapping alt text in **[]** then wrap link for image in **()**
+        -alt text == short text with info about the image
+#Specifying Theme an Image is Shown to
+    -aka choosing if you want light or dark mode
+    - An example from github
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
+         <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+        <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+    </picture>
