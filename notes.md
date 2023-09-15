@@ -116,6 +116,7 @@ Paragraphs
 Footnotes
     -use bracket syntax
     ```
+    
     Footnote[^1]
 
     [^1]: The footnote!
@@ -123,8 +124,9 @@ Footnotes
 
 Alerts
     -extension of blockquote syntax
-    -three type of alerts
     ```
+    Three Type of Alerts
+    
     > [!NOTE]
     > You're Awesome!
 
