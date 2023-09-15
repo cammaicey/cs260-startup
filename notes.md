@@ -102,3 +102,21 @@ Referencing Issues and Pull Requests
 
 Referencing External Resources
     -If custom autolink references are configured for a repository, then references to external resources, like a JIRA issue or Zendesk ticket, convert into shortened links
+
+Uploading Assest
+    -drag and drop, select from file browser, pasting
+    -can upload asset issues. pull requests, comments, `.md` files in repo
+
+Emojis
+    -type `:EMOJICODE` --> typing `:` brings up a list of emojis
+
+Paragraphs
+    -leave blank line between lines of text
+
+Footnotes
+    -use bracket syntax
+    ```
+    Footnote[^1]
+
+    [^1]: The footnote!
+    ```
