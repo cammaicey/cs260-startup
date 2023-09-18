@@ -15,6 +15,7 @@ Enjoy playing Dungeons and Dragons but not the hassle trying of picking your cha
 - Ability to save characters
 ### Technologies
 - **Authentication**: Prompts user to register an account and login. Cannot access without one. Displays username in top right corner.
+- **Database Data**: Users can store their rolls into the database.
 
 
 [Notes](notes.md)
