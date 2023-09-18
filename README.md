@@ -14,6 +14,7 @@ Enjoy playing Dungeons and Dragons but not the hassle trying of picking your cha
 - Name your character
 - Ability to save characters
 ### Technologies
+- Authentication - Prompts user to register an account and login. Cannot access without one. Displays username in top right corner.
 
 
 [Notes](notes.md)
