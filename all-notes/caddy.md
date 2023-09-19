@@ -7,7 +7,7 @@
     - serves up all of your static HTML, CSS, and JavaScript files. All of your early application work will be hosted as static files
     - acts as a gateway for subdomain requests to your Simon and startup application services
         - when a request is made to `simon.yourdomain` Caddy will proxy the request to the Simon application running with node.js as an internal web service
-        - ![screenshot from class github]("C:\Users\Camrynn Helliwell\OneDrive\Pictures\Screenshots\cs260notes\caddy-diagram.jpg")
+        - ![screenshot from class github](https://github.com/webprogramming260/.github/raw/main/profile/webServers/caddy/webServersCaddy.jpg)
 - preinstalled and configured on your server, you just have to configure your root domain
 
 ## Important Caddy Files
