@@ -6,4 +6,6 @@
 
 [Domain Names](all-notes/domain-names.md)
 
+[HTTPS, TLS, and Web Certificates](all-notes/HTTPS-TLS-and-web-certificates.md)
+
 [Writing Markdowns](all-notes/writing-markdown.md)
