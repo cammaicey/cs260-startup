@@ -8,4 +8,6 @@
 
 [HTTPS, TLS, and Web Certificates](all-notes/HTTPS-TLS-and-web-certificates.md)
 
+[Technology Stacks](all-notes/tech-stack.md)
+
 [Writing Markdowns](all-notes/writing-markdown.md)
