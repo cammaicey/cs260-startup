@@ -6,7 +6,7 @@ Enjoy playing Dungeons and Dragons but not the hassle trying of picking your cha
 There will be four main pages after logging in/creating an account.
 
 The login page.
-![Login Page](rc-login.jpg)
+![Login Page](https://github.com/cammaicey/startup/blob/main/images/rc-login.jpg?raw=true)
 
 These next three are all the home page but as you click the buttons it changes to reflect the next step.
 ![Base Home](rc-home-first.jpg)
