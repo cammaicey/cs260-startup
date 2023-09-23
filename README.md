@@ -4,7 +4,7 @@
 Enjoy playing Dungeons and Dragons but not the hassle trying of picking your character? Or maybe you find yourself playing the same kind of character over and over again? Roll Charater allows you to virtually roll dice that give you a randomized race, class, alignment, and background! After you've rolled for your character you then are prompted to roll for stats. Once the stats have been rolled you can name your character and save them.
 ### Design
 There will be four main pages after logging in/creating an account.
-![Login Page]("C:\Users\Camrynn Helliwell\OneDrive\Pictures\Screenshots\cs260notes\rc-login.jpg")
+![Login Page](![Alt text](rc-login.jpg))
 
 ### Key Features
 - A secure login using HTTPS
