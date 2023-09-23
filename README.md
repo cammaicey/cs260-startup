@@ -5,6 +5,13 @@ Enjoy playing Dungeons and Dragons but not the hassle trying of picking your cha
 ### Design
 There will be four main pages after logging in/creating an account.
 ![Login Page](rc-login.jpg)
+The login page.
+![Base Home](rc-home-first.jpg)
+![Stats Home](rc-home-second.jpg)
+![Name Homes](rc-home-third.jpg)
+![Archive](rc-archive.jpg)
+![Friends](rc-friends.jpg)
+![Info](rc-info.jpg)
 
 ### Key Features
 - A secure login using HTTPS
