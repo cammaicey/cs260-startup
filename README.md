@@ -9,18 +9,18 @@ The login page.
 ![Login Page](https://github.com/cammaicey/startup/blob/main/images/rc-login.jpg?raw=true)
 
 These next three are all the home page but as you click the buttons it changes to reflect the next step.
-![Base Home](rc-home-first.jpg)
-![Stats Home](rc-home-second.jpg)
-![Name Homes](rc-home-third.jpg)
+![Base Home](https://github.com/cammaicey/startup/blob/main/images/rc-home-first.jpg?raw=true)
+![Stats Home](https://github.com/cammaicey/startup/blob/main/images/rc-home-second.jpg?raw=true)
+![Name Homes](https://github.com/cammaicey/startup/blob/main/images/rc-home-third.jpg?raw=true)
 
 A way to view characters.
-![Archive](rc-archive.jpg)
+![Archive](https://github.com/cammaicey/startup/blob/main/images/rc-archive.jpg?raw=true)
 
 Lists showing your friends, pending requests(might get rid of this), and recieved freind requests.
-![Friends](rc-friends.jpg)
+![Friends](https://github.com/cammaicey/startup/blob/main/images/rc-friends.jpg?raw=true)
 
 An info page that will introduce my startup and help get you started.
-![Info](rc-info.jpg)
+![Info](https://github.com/cammaicey/startup/blob/main/images/rc-info.jpg?raw=true)
 
 ### Key Features
 - A secure login using HTTPS
