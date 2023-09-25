@@ -120,7 +120,7 @@
 - **'** `&apos;`
 
 ## HTML Versions
-![html versions](images/html-versions.jpg)
+![html versions](https://github.com/cammaicey/startup/blob/main/images/html-versions.jpg)
 
 ## index.html
 - default display will be `index.html`
