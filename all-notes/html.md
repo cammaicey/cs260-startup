@@ -120,7 +120,7 @@
 - **'** `&apos;`
 
 ## HTML Versions
-![html versions]("C:\Users\Camrynn Helliwell\OneDrive\Pictures\Screenshots\cs260notes\html-versions.jpg")
+![html versions](images/html-versions.jpg)
 
 ## index.html
 - default display will be `index.html`
