@@ -10,7 +10,7 @@
 
 [HTML Input Elements](all-notes/html-input-elmts.md)
 
-[HTML Media Elements](all-notes/html-media-elmts.md)
+[HTML Media Elements](all-notes/html-mdia-elmts.md)
 
 [HTTPS, TLS, and Web Certificates](all-notes/HTTPS-TLS-and-web-certificates.md)
 
