@@ -8,6 +8,8 @@
 
 [HTML](all-notes/html.md)
 
+[HTML Input Elements](all-notes/html-input-elmts.md)
+
 [HTTPS, TLS, and Web Certificates](all-notes/HTTPS-TLS-and-web-certificates.md)
 
 [Technology Stacks](all-notes/tech-stack.md)
