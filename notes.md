@@ -10,6 +10,8 @@
 
 [HTML Input Elements](all-notes/html-input-elmts.md)
 
+[HTML Media Elements](all-notes/html-media-elmts.md)
+
 [HTTPS, TLS, and Web Certificates](all-notes/HTTPS-TLS-and-web-certificates.md)
 
 [Technology Stacks](all-notes/tech-stack.md)
