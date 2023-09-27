@@ -34,5 +34,14 @@ An info page that will introduce my startup and help get you started.
 - **Database Data**: Users can store their rolls into the database.
 - **WebSocket**: You can friend people and send messages to each other through a chat box in the lower left corner.
 
+## HTML Deliverable
+- **HTML Pages**:
+- **Links**:
+- **Text**:
+- **3rd Party Service Calls**:
+- **Images**:
+- **Login**:
+- **Database**:
+- **Websocket**:
 
 [Notes](notes.md)
