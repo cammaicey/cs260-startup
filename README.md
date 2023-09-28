@@ -36,7 +36,7 @@ An info page that will introduce my startup and help get you started.
 
 ## HTML Deliverable
 - **HTML Pages**: Five HTML pages for login, home, archive, friends, and info
-- **Links**:
+- **Links**: Login automatically goes to the "Home" page and each page (except for login) has links to all of the other pages
 - **Text**:
 - **3rd Party Service Calls**:
 - **Images**:
