@@ -40,8 +40,8 @@ An info page that will introduce my startup and help get you started.
 - **Text**:
 - **3rd Party Service Calls**:
 - **Images**:
-- **Login**:
-- **Database**:
+- **Login**: Input for username and password with a submit button.
+- **Database**: 
 - **Websocket**: The home, archive, friends, and info page all have a chatbox that will allow friends to send messages to each other
 
 [Notes](notes.md)
