@@ -35,12 +35,12 @@ An info page that will introduce my startup and help get you started.
 - **WebSocket**: You can friend people and send messages to each other through a chat box in the lower left corner.
 
 ## HTML Deliverable
-- **HTML Pages**:
+- **HTML Pages**: Five HTML pages for login, home, archive, friends, and info
 - **Links**:
 - **Text**:
 - **3rd Party Service Calls**:
 - **Images**:
-- **Login**: Input for username and password with a submit button.
+- **Login**: Input for username and password with a submit button
 - **Database**: 
 - **Websocket**: The home, archive, friends, and info page all have a chatbox that will allow friends to send messages to each other
 
