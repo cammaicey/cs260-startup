@@ -42,6 +42,6 @@ An info page that will introduce my startup and help get you started.
 - **Images**:
 - **Login**:
 - **Database**:
-- **Websocket**:
+- **Websocket**: The home, archive, friends, and info page all have a chatbox that will allow friends to send messages to each other
 
 [Notes](notes.md)
