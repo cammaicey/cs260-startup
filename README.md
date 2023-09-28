@@ -39,7 +39,7 @@ An info page that will introduce my startup and help get you started.
 - **Links**: Login automatically goes to the "Home" page and each page (except for login) has links to all of the other pages
 - **Text**:
 - **3rd Party Service Calls**:
-- **Images**:
+- **Images**: Added a picture of Rivendell on the info page, I will probably change this later
 - **Login**: Input for username and password with a submit button
 - **Database**: The user's choice to add their character to the archive acts as them storing data in a database
 - **Websocket**: The home, archive, friends, and info page all have a chatbox that will allow friends to send messages to each other
