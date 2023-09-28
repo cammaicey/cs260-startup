@@ -41,7 +41,7 @@ An info page that will introduce my startup and help get you started.
 - **3rd Party Service Calls**:
 - **Images**:
 - **Login**: Input for username and password with a submit button
-- **Database**: 
+- **Database**: The user's choice to add their character to the archive acts as them storing data in a database
 - **Websocket**: The home, archive, friends, and info page all have a chatbox that will allow friends to send messages to each other
 
 [Notes](notes.md)
