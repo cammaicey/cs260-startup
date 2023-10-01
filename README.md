@@ -37,7 +37,7 @@ An info page that will introduce my startup and help get you started.
 ## HTML Deliverable
 - **HTML Pages**: Five HTML pages for login, home, archive, friends, and info
 - **Links**: Login automatically goes to the "Home" page and each page (except for login) has links to all of the other pages
-- **Text**:
+- **Text**: Each page has some sort of text that will either be there in the final stage or is currently acting as a placeholder until the action can be fully implemented
 - **3rd Party Service Calls**:
 - **Images**: Added a picture of Rivendell on the info page, I will probably change this later
 - **Login**: Input for username and password with a submit button
