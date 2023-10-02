@@ -59,3 +59,58 @@
     ```
 - some combinators
 ![combinators](https://github.com/cammaicey/startup/blob/main/images/combinators.png?raw=true)
+-  use the general sibling combinator to increase the whitespace padding on the left of paragraphs that are siblings of a level two heading
+```
+h2 ~ p {
+  padding-left: 0.5em;
+}
+```
+
+## Class Selector
+- class selector
+- any element can have zero or more classifications applied to it
+- our document has a class of `introduction` applied to the first paragraph
+- class of `summary` applied to the final paragraph of each section
+- bold the summary paragraphs `.summary`
+```
+.summary {
+  font-weight: bold;
+}
+```
+- can also combine the element name and class selectors to select all paragraphs with a class of summary
+```
+p.summary {
+  font-weight: bold;
+}
+```
+
+## ID Selector
+- All IDs should be unique within an HTML doc
+- To use the ID selector you prefix the ID with the hash symbol `#`
+- putting a thin purple border along the left side of the physics section
+```
+#physics {
+  border-left: solid 1em purple;
+}
+```
+
+## Attribute Selector
+- allow you to select elements based upon their attributes
+- use an attribute selector to select any element with a given attribute `a[href]`
+- specify a required value for an attribute, `a[href="./fish.png"]`, order for the selector to match
+- Attribute selectors also support wildcards such as the ability to select attribute values containing specific text `p[href*="https://"]`
+```
+p[class='summary'] {
+  color: red;
+}
+```
+
+## Pseudo Selector
+- select based on positional relationships, mouse interactions, hyperlink visitation states, and attributes
+- Suppose we want our purple highlight bar to appear only when the mouse hovers over the text
+- To accomplish: change our ID selector to select whenever a section is hovered over
+```
+section:hover {
+  border-left: solid 1em purple;
+}
+```
