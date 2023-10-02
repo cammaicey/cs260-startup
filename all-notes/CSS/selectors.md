@@ -58,4 +58,4 @@
     }
     ```
 - some combinators
-![combinators](images/combinators.png)
+![combinators](https://github.com/cammaicey/startup/blob/main/images/combinators.png?raw=true)
