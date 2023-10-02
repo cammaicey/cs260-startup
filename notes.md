@@ -8,11 +8,11 @@
 
 [Domain Names](all-notes/domain-names.md)
 
-[HTML](all-notes/html.md)
+[HTML](all-notes/HTML/html.md)
 
-[HTML Input Elements](all-notes/html-input-elmts.md)
+[HTML Input Elements](all-notes/HTML/html-input-elmts.md)
 
-[HTML Media Elements](all-notes/html-mdia-elmts.md)
+[HTML Media Elements](all-notes/HTML/html-mdia-elmts.md)
 
 [HTTPS, TLS, and Web Certificates](all-notes/HTTPS-TLS-and-web-certificates.md)
 
