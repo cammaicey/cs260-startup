@@ -6,6 +6,8 @@
 
 [CSS](all-notes/CSS/CSS.md)
 
+[Declarations](all-notes/CSS/declarations.md)
+
 [Domain Names](all-notes/domain-names.md)
 
 [HTML](all-notes/HTML/html.md)
