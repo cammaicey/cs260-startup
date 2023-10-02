@@ -10,6 +10,8 @@
 
 [Domain Names](all-notes/domain-names.md)
 
+[Fonts](all-notes/CSS/fonts.md)
+
 [HTML](all-notes/HTML/html.md)
 
 [HTML Input Elements](all-notes/HTML/html-input-elmts.md)
