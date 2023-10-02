@@ -4,7 +4,7 @@
 
 [Caddy](all-notes/caddy.md)
 
-[CSS](all-notes/CSS.md)
+[CSS](all-notes/CSS/CSS.md)
 
 [Domain Names](all-notes/domain-names.md)
 
