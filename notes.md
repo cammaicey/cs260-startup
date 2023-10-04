@@ -8,6 +8,8 @@
 
 [CSS](all-notes/CSS/CSS.md)
 
+[CSS Flex](all-notes/CSS/flex.md)
+
 [Declarations](all-notes/CSS/declarations.md)
 
 [Domain Names](all-notes/domain-names.md)
