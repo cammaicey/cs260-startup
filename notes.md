@@ -14,6 +14,8 @@
 
 [Fonts](all-notes/CSS/fonts.md)
 
+[Grid](all-notes/CSS/grid.md)
+
 [HTML](all-notes/HTML/html.md)
 
 [HTML Input Elements](all-notes/HTML/html-input-elmts.md)
