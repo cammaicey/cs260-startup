@@ -12,6 +12,8 @@
 
 [Declarations](all-notes/CSS/declarations.md)
 
+[Debugging CSS](all-notes/CSS/debugging-CSS.md)
+
 [Domain Names](all-notes/domain-names.md)
 
 [Fonts](all-notes/CSS/fonts.md)
