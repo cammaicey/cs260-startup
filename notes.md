@@ -1,3 +1,5 @@
+[Animation](all-notes/CSS/animation.md)
+
 [AWS EC2](all-notes/aws-EC2.md)
 
 [AWS Route 53](all-notes/aws-route53.md)
