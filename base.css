@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-width: 375px;
+    font-family: "Lucida Handwriting", cursive;
+}
+header {
+    background-color: brown;
+}
+main {
+    background-color: bisque;
+}
+footer {
+    background-color: brown;
+}
