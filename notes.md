@@ -28,6 +28,8 @@
 
 [HTTPS, TLS, and Web Certificates](all-notes/HTTPS-TLS-and-web-certificates.md)
 
+[JavaScript Intro](all-notes/JavaScript/js-intro.md)
+
 [Responsive Design](all-notes/CSS/responsive-design.md)
 
 [Selectors](all-notes/CSS/selectors.md)
