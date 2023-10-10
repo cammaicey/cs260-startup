@@ -3,12 +3,14 @@ body {
     flex-direction: column;
     min-width: 375px;
     font-family: "Lucida Handwriting", cursive;
+    color: black;
+    background-color: bisque;
 }
 header {
     background-color: brown;
+    color: white;
 }
 main {
-    background-color: bisque;
     flex: 1 calc(100vh - 110px);
     display: flex;
     flex-direction: column;
@@ -17,4 +19,8 @@ main {
 }
 footer {
     background-color: brown;
+}
+a {
+    text-decoration: none;
+    color: white;
 }
