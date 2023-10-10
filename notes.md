@@ -30,6 +30,8 @@
 
 [JavaScript Intro](all-notes/JavaScript/js-intro.md)
 
+[JavaScript Console](all-notes/JavaScript/js-console.md)
+
 [Responsive Design](all-notes/CSS/responsive-design.md)
 
 [Selectors](all-notes/CSS/selectors.md)
