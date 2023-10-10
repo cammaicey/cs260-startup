@@ -6,12 +6,23 @@ body {
     flex-direction: column;
     min-width: 375px;
     font-family: "Lucida Handwriting", cursive;
-    color: black;
     background-color: bisque;
+    margin: 0;
+    text-align: center;
 }
 header {
+    text-align: left;
     background-color: brown;
     color: white;
+}
+menu {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
 main {
     flex: 1 calc(100vh - 110px);
@@ -24,6 +35,6 @@ footer {
     background-color: brown;
 }
 a {
-    text-decoration: underline;
+    text-decoration: none;
     color: white;
 }
