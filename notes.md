@@ -1,3 +1,5 @@
+[Adding JavaScript to HTML](all-notes/JavaScript/add-js-to-html.md)
+
 [Animation](all-notes/CSS/animation.md)
 
 [AWS EC2](all-notes/aws-EC2.md)
