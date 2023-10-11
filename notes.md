@@ -20,6 +20,8 @@
 
 [Fonts](all-notes/CSS/fonts.md)
 
+[Functions](all-notes/JavaScript/functions.md)
+
 [Grid](all-notes/CSS/grid.md)
 
 [HTML](all-notes/HTML/html.md)
