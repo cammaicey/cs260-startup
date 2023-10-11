@@ -40,4 +40,6 @@
 
 [Technology Stacks](all-notes/tech-stack.md)
 
+[Types, Operators, Conditionals, and Loops](all-notes/JavaScript/typs-ops-cnds-lps.md)
+
 [Writing Markdowns](all-notes/writing-markdown.md)
