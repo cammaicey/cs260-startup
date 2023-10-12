@@ -40,6 +40,8 @@
 
 [JavaScript Console](all-notes/JavaScript/js-console.md)
 
+[JSON](all-notes/JavaScript/json.md)
+
 [Responsive Design](all-notes/CSS/responsive-design.md)
 
 [Selectors](all-notes/CSS/selectors.md)
