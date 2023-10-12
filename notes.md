@@ -2,6 +2,8 @@
 
 [Animation](all-notes/CSS/animation.md)
 
+[Arrow Functions](all-notes/JavaScript/arrow-func.md)
+
 [AWS EC2](all-notes/aws-EC2.md)
 
 [AWS Route 53](all-notes/aws-route53.md)
