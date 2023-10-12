@@ -34,6 +34,8 @@
 
 [HTTPS, TLS, and Web Certificates](all-notes/HTTPS-TLS-and-web-certificates.md)
 
+[JavaScript Arrays](all-notes/JavaScript/arrays.md)
+
 [JavaScript Intro](all-notes/JavaScript/js-intro.md)
 
 [JavaScript Console](all-notes/JavaScript/js-console.md)
