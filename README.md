@@ -44,4 +44,12 @@ An info page that will introduce my startup and help get you started.
 - **Database**: The user's choice to add their character to the archive acts as them storing data in a database
 - **Websocket**: The home, archive, friends, and info page all have a chatbox that will allow friends to send messages to each other
 
+## CSS Deliverable
+- **Header, Footer, Main**: 
+- **Nav Elements**: 
+- **Responsive to Window Resizing**: 
+- **Application Elements**: 
+- **Application Text Content**: 
+- **Application Images**: 
+
 [Notes](notes.md)
