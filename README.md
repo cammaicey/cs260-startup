@@ -46,10 +46,10 @@ An info page that will introduce my startup and help get you started.
 
 ## CSS Deliverable
 - **Header, Footer, Main**: 
-- **Nav Elements**: 
+- **Nav Elements**: Dropped the underlines, made the font color white, and aligned it all at the top
 - **Responsive to Window Resizing**: 
 - **Application Elements**: 
-- **Application Text Content**: 
+- **Application Text Content**: Consistent font style and color
 - **Application Images**: 
 
 [Notes](notes.md)
