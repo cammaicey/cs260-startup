@@ -1,5 +1,22 @@
+* {box-sizing: border-box;}
+.open-button {
+    padding:10px 40px;
+    background-color: black;
+    color: white;
+    font-family: "Lucida Handwriting", cursive;
+    font-size:15px;
+    max-width:300px;
+    border-radius:20px;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 5px;
+    left: 15px;  
+  }
+  
 .chatbox {
-    text-align: left;
+    text-align: right;
+    display: none;
 }
 .form-popup {
     display: none;
