@@ -41,6 +41,8 @@ main {
 }
 footer {
     text-align: right;
+    flex: 0 30px;
+    display: block;
 }
 a {
     text-decoration: none;
