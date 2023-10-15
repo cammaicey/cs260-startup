@@ -9,3 +9,16 @@ select {
 option {
     font-family: "Lucida Handwriting", cursive;
 }
+table {
+    border-spacing: 50px;
+}
+td {
+    border: 2px solid;
+    width: 50%;
+    height: 50%;
+    background: white;
+    margin: 0.5em;
+}
+.num {
+    font-size: 35px;
+}
