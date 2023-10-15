@@ -45,7 +45,7 @@ An info page that will introduce my startup and help get you started.
 - **Websocket**: The home, archive, friends, and info page all have a chatbox that will allow friends to send messages to each other
 
 ## CSS Deliverable
-- **Header, Footer, Main**: 
+- **Header, Footer, Main**: Gave everything a nice styled appearance with reddish brown header and footer and tan main
 - **Nav Elements**: Dropped the underlines, made the font color white, and aligned it all at the top
 - **Responsive to Window Resizing**: Resizes itself nicely
 - **Application Elements**: 
