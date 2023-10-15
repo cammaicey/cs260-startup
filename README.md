@@ -50,6 +50,6 @@ An info page that will introduce my startup and help get you started.
 - **Responsive to Window Resizing**: 
 - **Application Elements**: 
 - **Application Text Content**: Consistent font style and color
-- **Application Images**: 
+- **Application Images**: The image just kind of stays the same size
 
 [Notes](notes.md)
