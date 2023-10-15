@@ -48,3 +48,14 @@ a {
     text-decoration: none;
     color: white;
 }
+.button {
+    padding:5px 20px;
+    background-color: tan;
+    color: black;
+    font-family: "Lucida Handwriting", cursive;
+    font-size:15px;
+    max-width:300px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
