@@ -70,3 +70,25 @@ a {
     border: none;
     cursor: pointer;
 }
+.abutton {
+    padding:5px 20px;
+    background-color: green;
+    color: white;
+    font-family: "Lucida Handwriting", cursive;
+    font-size:15px;
+    max-width:300px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.dbutton {
+    padding:5px 20px;
+    background-color: darkred;
+    color: white;
+    font-family: "Lucida Handwriting", cursive;
+    font-size:15px;
+    max-width:300px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
