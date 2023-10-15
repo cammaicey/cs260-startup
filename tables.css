@@ -1,0 +1,14 @@
+table {
+    border: 1px solid;
+    width: 25%;
+    text-align: left;
+}
+.th {
+    text-align: center;
+}
+td {
+    text-align: left;
+}
+tbody {
+    border: 1px solid;
+}
