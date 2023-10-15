@@ -48,7 +48,7 @@ An info page that will introduce my startup and help get you started.
 - **Header, Footer, Main**: Gave everything a nice styled appearance with reddish brown header and footer and tan main
 - **Nav Elements**: Dropped the underlines, made the font color white, and aligned it all at the top
 - **Responsive to Window Resizing**: Resizes itself nicely
-- **Application Elements**: 
+- **Application Elements**: I'
 - **Application Text Content**: Consistent font style and color
 - **Application Images**: The image just kind of stays the same size
 
