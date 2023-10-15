@@ -7,6 +7,9 @@ table, th, td {
     font-size: 20px;
     width: 50%;
 }
+th {
+    background-color: tan;
+}
 table {
     height: 100%;
 }
