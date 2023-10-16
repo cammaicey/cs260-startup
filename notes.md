@@ -46,6 +46,8 @@
 
 [Responsive Design](all-notes/CSS/responsive-design.md)
 
+[Rest and Spread](all-notes/JavaScript/rest-and-spread.md)
+
 [Selectors](all-notes/CSS/selectors.md)
 
 [Strings](all-notes/JavaScript/strings.md)
