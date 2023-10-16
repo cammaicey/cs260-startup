@@ -42,6 +42,8 @@
 
 [JSON](all-notes/JavaScript/json.md)
 
+[Regular Expressions](all-notes/JavaScript/regex.md)
+
 [Responsive Design](all-notes/CSS/responsive-design.md)
 
 [Selectors](all-notes/CSS/selectors.md)
