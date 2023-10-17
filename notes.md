@@ -40,9 +40,11 @@
 
 [JavaScript Arrays](all-notes/JavaScript/arrays.md)
 
+[JavaScript Console](all-notes/JavaScript/js-console.md)
+
 [JavaScript Intro](all-notes/JavaScript/js-intro.md)
 
-[JavaScript Console](all-notes/JavaScript/js-console.md)
+[JavaScript Objects & Classes](all-notes/JavaScript/js-objects-classes.md)
 
 [JSON](all-notes/JavaScript/json.md)
 
