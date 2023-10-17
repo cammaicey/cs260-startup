@@ -20,6 +20,8 @@
 
 [Domain Names](all-notes/domain-names.md)
 
+[Exceptions](all-notes/JavaScript/exceptions.md)
+
 [Fonts](all-notes/CSS/fonts.md)
 
 [Functions](all-notes/JavaScript/functions.md)
