@@ -131,7 +131,7 @@ p.#name = 'Lie';
 ```
 
 ## Inheritance
-- `extend` to define inheritence
+- `extends` to define inheritence
 - params to be passed to parent class use `super`
 - parent func explicit access using `super`
 ```
