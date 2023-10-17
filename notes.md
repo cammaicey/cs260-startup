@@ -18,6 +18,8 @@
 
 [Debugging CSS](all-notes/CSS/debugging-CSS.md)
 
+[Destructuring](all-notes/JavaScript/destructuring.md)
+
 [Domain Names](all-notes/domain-names.md)
 
 [Exceptions](all-notes/JavaScript/exceptions.md)
