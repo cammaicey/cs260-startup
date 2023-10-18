@@ -54,6 +54,8 @@
 
 [Rest and Spread](all-notes/JavaScript/rest-and-spread.md)
 
+[Scope](all-notes/JavaScript/scope.md)
+
 [Selectors](all-notes/CSS/selectors.md)
 
 [Strings](all-notes/JavaScript/strings.md)
