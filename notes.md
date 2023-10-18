@@ -48,6 +48,8 @@
 
 [JSON](all-notes/JavaScript/json.md)
 
+[Modules](all-notes/JavaScript/modules.md)
+
 [Regular Expressions](all-notes/JavaScript/regex.md)
 
 [Responsive Design](all-notes/CSS/responsive-design.md)
