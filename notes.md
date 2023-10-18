@@ -20,6 +20,8 @@
 
 [Destructuring](all-notes/JavaScript/destructuring.md)
 
+[Document Obj Model](all-notes/JavaScript/doc-obj-model.md)
+
 [Domain Names](all-notes/domain-names.md)
 
 [Exceptions](all-notes/JavaScript/exceptions.md)
