@@ -20,6 +20,8 @@
 
 [Debugging CSS](all-notes/CSS/debugging-CSS.md)
 
+[Debuggin JavaScript](all-notes/JavaScript/debugging.md)
+
 [Destructuring](all-notes/JavaScript/destructuring.md)
 
 [Document Obj Model](all-notes/JavaScript/doc-obj-model.md)
