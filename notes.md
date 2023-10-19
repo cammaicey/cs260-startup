@@ -54,6 +54,8 @@
 
 [Modules](all-notes/JavaScript/modules.md)
 
+[Promises](all-notes/JavaScript/js-promises.md)
+
 [Regular Expressions](all-notes/JavaScript/regex.md)
 
 [Responsive Design](all-notes/CSS/responsive-design.md)
