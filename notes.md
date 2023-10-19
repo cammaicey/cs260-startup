@@ -50,6 +50,8 @@
 
 [JSON](all-notes/JavaScript/json.md)
 
+[Local Storage](all-notes/JavaScript/local-storage.md)
+
 [Modules](all-notes/JavaScript/modules.md)
 
 [Regular Expressions](all-notes/JavaScript/regex.md)
