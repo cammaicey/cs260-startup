@@ -19,4 +19,12 @@ var baseBackgrounds = [
     'Entertainer', 'Folk Hero', 'Guild Artisan',
     'Hermit', 'Noble', 'Outlander', 'Sage', 'Sailor',
     'Soldier', 'Urchin'
-]
+];
+
+function generateChar() {
+    var table = document.getElementById("charT");
+    table.rows[0].cells[0].innerHTML = baseRaces[Math.floor(Math.random() * baseRaces.length)];
+    table.rows[0].cells[1].innerHTML = baseClasses[Math.floor(Math.random() * baseClasses.length)];
+    table.rows[0].cells[2].innerHTML = alignments[Math.floor(Math.random() * alignments.length)];
+    table.rows[0].cells[3].innerHTML = baseBackgrounds[Math.floor(Math.random() * baseBackgrounds.length)];
+}
