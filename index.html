@@ -23,19 +23,17 @@
             <form method="get" action="home.html">
                 <div class="container">
                     <label for="uname"><b>Username</b></label>
-                    <input class="login" type="username" placeholder="Enter Username" name="uname" required>
+                    <input class="login" id="uname" type="username" placeholder="Enter Username" name="uname" required>
                 </div>
                 <br>
                 <div>
                     <label for="pswd"><b>Password</b></label>
-                    <input class="login" type="password" placeholder="Enter Password" name="pswd" required>
+                    <input class="login" id="password" type="password" placeholder="Enter Password" name="pswd" required>
                 </div>
                 <br>
                 <div>
-                    <button class="button" type="submit">Login</button>
+                    <button class="button" onclick="login()">Login</button>
                     <br>
-                    <br>
-                    <button class="button" type="submit">Create Account</button>
                 </div>
             </form>
             <hr>
