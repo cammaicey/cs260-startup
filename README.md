@@ -52,4 +52,10 @@ An info page that will introduce my startup and help get you started.
 - **Application Text Content**: Consistent font style and color
 - **Application Images**: The image just kind of stays the same size
 
+## JavaScript Deliverable
+- **Login Support**: 
+- **Database Data Support**: 
+- **WebSocket Support**: 
+- **Interaction Logic**: 
+
 [Notes](notes.md)
