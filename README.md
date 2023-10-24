@@ -53,7 +53,7 @@ An info page that will introduce my startup and help get you started.
 - **Application Images**: The image just kind of stays the same size
 
 ## JavaScript Deliverable
-- **Login Support**: 
+- **Login Support**: Basic login JavaScript
 - **Database Data Support**: 
 - **WebSocket Support**: 
 - **Interaction Logic**: 
