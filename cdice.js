@@ -21,10 +21,15 @@ var baseBackgrounds = [
     'Soldier', 'Urchin'
 ];
 
+var clicks = 0;
+
 function generateChar() {
-    var table = document.getElementById("charT");
-    table.rows[0].cells[0].innerHTML = baseRaces[Math.floor(Math.random() * baseRaces.length)];
-    table.rows[0].cells[1].innerHTML = baseClasses[Math.floor(Math.random() * baseClasses.length)];
-    table.rows[0].cells[2].innerHTML = alignments[Math.floor(Math.random() * alignments.length)];
-    table.rows[0].cells[3].innerHTML = baseBackgrounds[Math.floor(Math.random() * baseBackgrounds.length)];
+    if (clicks == 0 ) {
+        clicks = 1;
+        let table = document.getElementById("charT");
+        table.rows[0].cells[0].innerHTML = baseRaces[Math.floor(Math.random() * baseRaces.length)];
+        table.rows[0].cells[1].innerHTML = baseClasses[Math.floor(Math.random() * baseClasses.length)];
+        table.rows[0].cells[2].innerHTML = alignments[Math.floor(Math.random() * alignments.length)];
+        table.rows[0].cells[3].innerHTML = baseBackgrounds[Math.floor(Math.random() * baseBackgrounds.length)];
+    }
 }

@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Roll Character</title>
+        <script src="cdice.js"></script>
         <link rel="stylesheet" href="base.css" />
         <link rel="stylesheet" href="msg.css" />
         <link rel="stylesheet" href="home.css">
@@ -39,15 +40,15 @@
             <div>
                 <table id="charT">
                     <tr>
-                        <td id="race">Human</td>
-                        <td id="class">Rogue</td>
-                        <td id="alignment">Chaotic Good</td>
-                        <td id="background">Charlatan</td>
+                        <td>Race</td>
+                        <td>Class</td>
+                        <td>Alignment</td>
+                        <td>Background</td>
                     </tr>
                 </table>
             </div>
             <div>
-                <button class="button" onclick="cdice()">Roll Here</button>
+                <button class="button" id="cbtn" onclick="generateChar()">Roll Here</button>
             </div>
             <div>
                 <table id="statT">
