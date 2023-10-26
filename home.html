@@ -37,7 +37,7 @@
             </nav>
         </header>
         <main class="container-fluid">
-            <h1>Create Your Character</h1>
+            <h1 id="title">Create Your Character</h1>
             <div>
                 <table id="charT">
                     <tr>
@@ -68,14 +68,14 @@
             <div class="under-stats">
                 <form id="myForm">
                 <select name="ability-names" id="ability-names" required>
-                    <option value="str">Strength</option>
-                    <option value="con">Constitution</option>
-                    <option value="dex">Dexterity</option>
-                    <option value="int">Intelligence</option>
-                    <option value="wis">Wisdom</option>
-                    <option value="cha">Charisma</option>
+                    <option value="Strength">Strength</option>
+                    <option value="Constitution">Constitution</option>
+                    <option value="Dexterity">Dexterity</option>
+                    <option value="Intelligence">Intelligence</option>
+                    <option value="Wisdom">Wisdom</option>
+                    <option value="Charisma">Charisma</option>
                 </select>
-                <input class="button" type="button" onclick="dropdownMenu()" value="Click to Assign Stat">
+                <input class="button" type="button" id="ability-btn" onclick="dropdownMenu()" value="Click to Assign Stat">
                 </form>
             </div>
             <div>
