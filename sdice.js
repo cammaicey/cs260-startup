@@ -42,5 +42,30 @@ function dropdownMenu() {
     document.querySelector("#stat-btn").disabled = false;
     ddm_chosen = true;
     total = 0;
+    if (s_clicks == 0) {
+        let abtn = document.querySelector("#ability-btn");
+        document.querySelector("#ability-btn").disabled = false;
+        document.querySelector("#ability-names").remove();
+        abtn.value = "Move to Name Character";
+        abtn.onclick = moveToNaming;
+        localStorage.setItem("charStats", ability_scores);
     }
+    }
+}
+
+function moveToNaming() {
+    // remove all elements
+    document.querySelector("#charT").remove();
+    document.querySelector("#statT").remove();
+    document.querySelector("#cbtn").remove();
+    document.querySelector("#stat-btn").remove();
+    document.querySelector("#total").remove();
+    document.querySelector("#rolls-left").remove();
+    // change title
+    document.getElementById("title").innerHTML = "Name Your Character";
+    // display hidden input field
+    document.querySelector("#nfield").style.display = "flex";
+    // change btn
+    document.querySelector("#ability-btn").value = "Submit to Archive";
+
 }

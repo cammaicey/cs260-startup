@@ -36,7 +36,7 @@
                 </menu>
             </nav>
         </header>
-        <main class="container-fluid">
+        <main class="container-fluid" id="main">
             <h1 id="title">Create Your Character</h1>
             <div>
                 <table id="charT">
@@ -47,6 +47,9 @@
                         <td id="b">Background</td>
                     </tr>
                 </table>
+            </div>
+            <div id="nfield">
+                <input type="text" placeholder="Name" required>
             </div>
             <div>
                 <button class="button" id="cbtn" onclick="generateChar()">Roll Here</button>

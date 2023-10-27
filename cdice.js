@@ -35,5 +35,6 @@ function generateChar() {
         charDescription.set("Alignment", document.querySelector ("#a").innerText);
         table.rows[0].cells[3].innerHTML = baseBackgrounds[Math.floor(Math.random() * baseBackgrounds.length)];
         charDescription.set("Background", document.querySelector ("#b").innerText);
+        localStorage.setItem("charDescripition", charDescription);
     }
 }
