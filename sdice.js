@@ -67,5 +67,6 @@ function moveToNaming() {
     document.querySelector("#nfield").style.display = "flex";
     // change btn
     document.querySelector("#ability-btn").value = "Submit to Archive";
-
+    const cName = document.querySelector("#cname");
+    localStorage.setItem("Character Name", cName.value);
 }
