@@ -36,13 +36,15 @@ function generateRoll() {
 function dropdownMenu() {
     if (s_clicks != 6) {  
     let element = document.getElementById("ability-names");
-    charDetails.set(element[element.selectedIndex].value, total);
+    ability_scores.set(element[element.selectedIndex].value, total);
     element.remove(element.selectedIndex);
     document.querySelector("#ability-btn").disabled = true;
     document.querySelector("#stat-btn").disabled = false;
     ddm_chosen = true;
     total = 0;
     if (s_clicks == 0) {
+        const jsonAbilities = JSON.stringify(Array.from(ability_scores));
+        localStorage.setItem('Stats', jsonAbilities);
         let abtn = document.querySelector("#ability-btn");
         document.querySelector("#ability-btn").disabled = false;
         document.querySelector("#ability-names").remove();
