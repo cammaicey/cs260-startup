@@ -20,8 +20,16 @@ function storeArchive() {
     const cName = document.querySelector("#cname"); //get the name they made
     // store local storage data into archive
     const character = new Char(cName.value, JSON.stringify(Array.from(charDetails)), JSON.stringify(Array.from(ability_scores))); // create an obj
-    console.log(character.get_details);
     localStorage.setItem(cName.value, JSON.stringify(character)); //store the obj into local storage
+    // make their spot on the table
+    let t = document.querySelector("#cTable"); // ref to table
+    let tb = document.querySelector("#tb"); // ref to tbody
+    let newR = document.createElement("tr"); // makes row
+    let nCell = document.createElement("td"); // makes data
+    nCell.textContent = character.get_name; // adds name to td
+    newR.appendChild(nCell);
+   // tb.append(newR); // null error I think it's an issue with the tbody element
+   // sends user to archive
     window.location.href = "archive.html";
 }
 
