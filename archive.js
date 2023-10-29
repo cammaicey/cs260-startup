@@ -19,7 +19,7 @@ function storeArchive() {
     document.querySelector("#ability-btn").disabled = true; // turn off button
     const cName = document.querySelector("#cname"); //get the name they made
     // store local storage data into archive
-    const character = new Char(cName.value, charDetails, ability_scores); // create an obj
+    const character = new Char(cName.value, JSON.stringify(Array.from(charDetails)), JSON.stringify(Array.from(ability_scores))); // create an obj
     console.log(character.get_details);
     localStorage.setItem(cName.value, JSON.stringify(character)); //store the obj into local storage
     window.location.href = "archive.html";
