@@ -54,8 +54,8 @@ An info page that will introduce my startup and help get you started.
 
 ## JavaScript Deliverable
 - **Login Support**: Basic login JavaScript
-- **Database Data Support**: 
-- **WebSocket Support**: 
+- **Database Data Support**: I cannot figure this out, I keep getting errors that don't allow me to progress further.
+- **WebSocket Support**: I cannot figure this out.
 - **Interaction Logic**: The home page seems to be interacting well and I made sure to accomodate for any possible user errors ie accidentally not assigning stats, accidentally removing stats, etc.
 
 [Notes](notes.md)
