@@ -54,7 +54,7 @@ An info page that will introduce my startup and help get you started.
 
 ## JavaScript Deliverable
 - **Login Support**: Basic login JavaScript
-- **Database Data Support**: I think I am on the right track but still need to work a lot out, currently storing details and stats in local storage.
+- **Database Data Support**: I think I am on the right track but still need to work a lot out, currently storing details, stats, and character obj in local storage this data isn't reflected in the archive though.
 - **WebSocket Support**: I wasn't able to get to this because of the Database Data portion unless something else I'm doing counts for Websocket.
 - **Interaction Logic**: The home page seems to be interacting well and I made sure to accomodate for any possible user errors ie accidentally not assigning stats, accidentally removing stats, etc.
 
