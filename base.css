@@ -120,7 +120,7 @@ img {
     margin-right: 0px;
 }
 
-#d {
+#d1 {
     display: flex;
     position: relative;
     bottom: 50px;
@@ -136,11 +136,11 @@ img {
     margin-left: 0px;
     margin-right: 0px;
 }
-#a {
+#a1 {
     display: flex;
     position: relative;
     bottom: 50px;
-    left: 20px;
+    left: 0;
     margin-left: 0px;
     margin-right: 0px;
 }
