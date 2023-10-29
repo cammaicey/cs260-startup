@@ -36,7 +36,7 @@ function generateRoll() {
 function dropdownMenu() {
     if (s_clicks != 6) {  
     let element = document.getElementById("ability-names");
-    ability_scores.set(element[element.selectedIndex].value, total);
+    charDetails.set(element[element.selectedIndex].value, total);
     element.remove(element.selectedIndex);
     document.querySelector("#ability-btn").disabled = true;
     document.querySelector("#stat-btn").disabled = false;
@@ -48,7 +48,6 @@ function dropdownMenu() {
         document.querySelector("#ability-names").remove();
         abtn.value = "Move to Name Character";
         abtn.onclick = moveToNaming;
-        localStorage.setItem("charStats", ability_scores);
     }
     }
 }

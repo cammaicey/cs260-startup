@@ -20,7 +20,7 @@ let baseBackgrounds = [
     'Hermit', 'Noble', 'Outlander', 'Sage', 'Sailor',
     'Soldier', 'Urchin'
 ];
-let charDescription = new Map();
+let charDetails = new Map();
 let clicks = 0;
 
 function generateChar() {
@@ -28,13 +28,12 @@ function generateChar() {
         clicks = 1;
         let table = document.getElementById("charT");
         table.rows[0].cells[0].innerHTML = baseRaces[Math.floor(Math.random() * baseRaces.length)];
-        charDescription.set("Race", document.querySelector ("#r").innerText);
+        charDetails.set("Race", document.querySelector ("#r").innerText);
         table.rows[0].cells[1].innerHTML = baseClasses[Math.floor(Math.random() * baseClasses.length)];
-        charDescription.set("Class", document.querySelector ("#c").innerText);
+        charDetails.set("Class", document.querySelector ("#c").innerText);
         table.rows[0].cells[2].innerHTML = alignments[Math.floor(Math.random() * alignments.length)];
-        charDescription.set("Alignment", document.querySelector ("#a").innerText);
+        charDetails.set("Alignment", document.querySelector ("#a").innerText);
         table.rows[0].cells[3].innerHTML = baseBackgrounds[Math.floor(Math.random() * baseBackgrounds.length)];
-        charDescription.set("Background", document.querySelector ("#b").innerText);
-        localStorage.setItem("charDescripition", charDescription);
+        charDetails.set("Background", document.querySelector ("#b").innerText);
     }
 }
