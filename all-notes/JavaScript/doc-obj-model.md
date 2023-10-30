@@ -110,6 +110,7 @@ submitDataEl.addEventListener('click', function (event) {
     - WebSocket
     - clipboard
 - some more common ones
+
 | Event Category | Description           |
 | -------------- | --------------------- |
 | Clipboard      | Cut, copied, pasted   |
@@ -117,6 +118,7 @@ submitDataEl.addEventListener('click', function (event) {
 | Keyboard       | Keys are pressed      |
 | Mouse          | Click events          |
 | Text selection | When text is selected |
+
 - also add event listeners directly in the HTML
 - here is a onclick handler
 ```
