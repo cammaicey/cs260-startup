@@ -6,11 +6,11 @@
 
 [Async/Await](all-notes/JavaScript/async-await.md)
 
-[AWS EC2](all-notes/aws-EC2.md)
+[AWS EC2](all-notes/WebServers/aws-EC2.md)
 
-[AWS Route 53](all-notes/aws-route53.md)
+[AWS Route 53](all-notes/WebServers/aws-route53.md)
 
-[Caddy](all-notes/caddy.md)
+[Caddy](all-notes/WebServers/caddy.md)
 
 [CSS](all-notes/CSS/CSS.md)
 
@@ -26,7 +26,7 @@
 
 [Document Obj Model](all-notes/JavaScript/doc-obj-model.md)
 
-[Domain Names](all-notes/domain-names.md)
+[Domain Names](all-notes/WebServers/domain-names.md)
 
 [Exceptions](all-notes/JavaScript/exceptions.md)
 
@@ -42,7 +42,7 @@
 
 [HTML Media Elements](all-notes/HTML/html-mdia-elmts.md)
 
-[HTTPS, TLS, and Web Certificates](all-notes/HTTPS-TLS-and-web-certificates.md)
+[HTTPS, TLS, and Web Certificates](all-notes/WebServers/HTTPS-TLS-and-web-certificates.md)
 
 [JavaScript Arrays](all-notes/JavaScript/arrays.md)
 
@@ -75,5 +75,7 @@
 [Technology Stacks](all-notes/tech-stack.md)
 
 [Types, Operators, Conditionals, and Loops](all-notes/JavaScript/typs-ops-cnds-lps.md)
+
+[Web Services Intro](all-notes/WebServices/ws-intro.md)
 
 [Writing Markdowns](all-notes/writing-markdown.md)
