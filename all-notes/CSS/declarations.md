@@ -59,8 +59,8 @@ p {
 ## Color
 - multiple ways to describe color
 
-| Method       | Example                   | Description                                                                                                                                                                                                       |
-| ------------ | ------------------------- | --------------------------------------------- |
+| Method       | Example                   | Description                                   |
+|------------- | ------------------------- | --------------------------------------------- |
 | keyword      | `red`                     | A set of predefined colors (e.g. white, cornflowerblue, darkslateblue)                                                                                                                                            |
 | RGB hex      | `#00FFAA22` or `#0FA2`    | Red, green, and blue as a hexadecimal number, with an optional alpha opacity                                                                                                                                      |
 | RGB function | `rgb(128, 255, 128, 0.5)` | Red, green, and blue as a percentage or number between 0 and 255, with an optional alpha opacity percentage                                                                                                       |
