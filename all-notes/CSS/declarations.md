@@ -58,6 +58,7 @@ p {
 
 ## Color
 - multiple ways to describe color
+
 | Method       | Example                   | Description                                                                                                                                                                                                       |
 | ------------ | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | keyword      | `red`                     | A set of predefined colors (e.g. white, cornflowerblue, darkslateblue)                                                                                                                                            |
