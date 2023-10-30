@@ -4,6 +4,7 @@
 
 ## Javascript Versions
 - considering the use of a JavaScript feature consult websites like MDN or CanIUse
+
 | Year | Version | Features                                                                                                                  |
 | ---- | ------- | ------------------------------------------------------------------------------------------------------------------------- |
 | 1997 | ES1     | types, functions                                                                                                          |
