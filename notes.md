@@ -76,6 +76,8 @@
 
 [Types, Operators, Conditionals, and Loops](all-notes/JavaScript/typs-ops-cnds-lps.md)
 
+[URL](all-notes/WebServices/url.md)
+
 [Web Services Intro](all-notes/WebServices/ws-intro.md)
 
 [Writing Markdowns](all-notes/writing-markdown.md)
