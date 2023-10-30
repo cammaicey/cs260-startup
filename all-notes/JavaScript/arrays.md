@@ -13,6 +13,7 @@ console.log(a.length);
 
 ## Object Functions
 - several interesting static functions
+
 | Function | Meaning                                                   | Example                       |
 | -------- | --------------------------------------------------------- | ----------------------------- |
 | push     | Add an item to the end of the array                       | `a.push(4)`                   |
@@ -27,6 +28,7 @@ console.log(a.length);
 | filter   | Run a function to remove items                            | `a.filter(i => i%2)`          |
 | every    | Run a function to test if all items match                 | `a.every(i => i < 3)`         |
 | some     | Run a function to test if any items match                 | `a.some(i => 1 < 1)`          |
+
 ```
 const a = [1, 2, 3];
 
