@@ -4,6 +4,7 @@
 
 ## Display
 - common options for the display property include
+
 | Value  | Meaning                                                                                                                      |
 | ------ | ---------------------------------------------------------------------------------------------------------------------------- |
 | none   | Don't display this element. The element still exists, but the browser will not render it.                                    |

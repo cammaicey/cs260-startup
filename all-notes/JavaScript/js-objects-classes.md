@@ -41,6 +41,7 @@ const obj = {
 ## Object Functions
 - several interesting static funcs
 - some common ones
+
 | Function | Meaning                             |
 | -------- | ----------------------------------- |
 | entries  | Returns an array of key value pairs |

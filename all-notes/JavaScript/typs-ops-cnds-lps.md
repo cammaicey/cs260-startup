@@ -6,6 +6,7 @@
 
 ## Type
 - primitive types
+
 | Type        | Meaning                                                    |
 | ----------- | ---------------------------------------------------------- |
 | `Null`      | The type of a variable that has not been assigned a value. |
@@ -17,6 +18,7 @@
 | `Symbol`    | A unique value.                                            |
 - JavaScript does not enforce the declaration of a variable before you use it, it is entirely possible for a variable to have the type of undefined
 - object types
+
 | Type       | Use                                                                                    | Example                  |
 | ---------- | -------------------------------------------------------------------------------------- | ------------------------ |
 | `Object`   | A collection of properties represented by name value pairs. Values can be of any type. | `{a:3, b:'fish'}`        |

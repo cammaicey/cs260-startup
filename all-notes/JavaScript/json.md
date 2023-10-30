@@ -6,6 +6,7 @@
 
 ## Format
 - contains one of the following data types
+
 | Type    | Example                 |
 | ------- | ----------------------- |
 | string  | "crockford"             |
