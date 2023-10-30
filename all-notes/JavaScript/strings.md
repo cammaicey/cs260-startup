@@ -19,6 +19,7 @@ console.log(`string ${l + (1 + 1)} text`);
 
 ## String Functions
 - commonly used funcitons
+
 | Function      | Meaning                                                      |
 | ------------- | ------------------------------------------------------------ |
 | length        | The number of characters in the string                       |
