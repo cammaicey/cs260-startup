@@ -30,6 +30,8 @@
 
 [Exceptions](all-notes/JavaScript/exceptions.md)
 
+[Fetch](all-notes/WebServices/fetch.md)
+
 [Fonts](all-notes/CSS/fonts.md)
 
 [Functions](all-notes/JavaScript/functions.md)
