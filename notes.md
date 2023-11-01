@@ -76,6 +76,8 @@
 
 [Selectors](all-notes/CSS/selectors.md)
 
+[Service Design](all-notes/WebServices/service-design.md)
+
 [SOP and CORS](all-notes/WebServices/sop-cors.md)
 
 [Strings](all-notes/JavaScript/strings.md)
