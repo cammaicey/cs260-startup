@@ -42,6 +42,8 @@
 
 [HTML Media Elements](all-notes/HTML/html-mdia-elmts.md)
 
+[HTTP](all-notes/WebServices/HTTP.md)
+
 [HTTPS, TLS, and Web Certificates](all-notes/WebServers/HTTPS-TLS-and-web-certificates.md)
 
 [JavaScript Arrays](all-notes/JavaScript/arrays.md)
