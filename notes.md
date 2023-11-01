@@ -74,6 +74,8 @@
 
 [Selectors](all-notes/CSS/selectors.md)
 
+[SOP and CORS](all-notes/WebServices/sop-cors.md)
+
 [Strings](all-notes/JavaScript/strings.md)
 
 [Technology Stacks](all-notes/tech-stack.md)
