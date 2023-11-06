@@ -94,6 +94,8 @@
 
 [Types, Operators, Conditionals, and Loops](/all-notes/JavaScript/typs-ops-cnds-lps.md)
 
+[UI Testing](/all-notes/WebServices/ui-testing.md)
+
 [URL](/all-notes/WebServices/url.md)
 
 [Web Services Intro](/all-notes/WebServices/ws-intro.md)
