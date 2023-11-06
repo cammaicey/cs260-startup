@@ -30,6 +30,8 @@
 
 [Domain Names](/all-notes/WebServers/domain-names.md)
 
+[Endpoint Testing](/all-notes/WebServices/endpoints.md)
+
 [Exceptions](/all-notes/JavaScript/exceptions.md)
 
 [Express](/all-notes/WebServices/express.md)
