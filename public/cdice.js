@@ -35,7 +35,7 @@ function generateChar() {
         charDetails.set("Alignment", document.querySelector ("#a").innerText);
         table.rows[0].cells[3].innerHTML = baseBackgrounds[Math.floor(Math.random() * baseBackgrounds.length)];
         charDetails.set("Background", document.querySelector ("#b").innerText);
-        const jsoncharDetails = JSON.stringify(Array.from(charDetails));
-        localStorage.setItem('Details', jsoncharDetails);
+        //const jsoncharDetails = JSON.stringify(Array.from(charDetails));
+        //localStorage.setItem('Details', jsoncharDetails);
     }
 }

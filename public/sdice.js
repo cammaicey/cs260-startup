@@ -43,8 +43,8 @@ function dropdownMenu() {
     ddm_chosen = true;
     total = 0;
     if (s_clicks == 0) {
-        const jsonAbilities = JSON.stringify(Array.from(ability_scores));
-        localStorage.setItem('Stats', jsonAbilities);
+        //const jsonAbilities = JSON.stringify(Array.from(ability_scores));
+        //localStorage.setItem('Stats', jsonAbilities);
         let abtn = document.querySelector("#ability-btn");
         document.querySelector("#ability-btn").disabled = false;
         document.querySelector("#ability-names").remove();
