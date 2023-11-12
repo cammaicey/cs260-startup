@@ -61,8 +61,8 @@ An info page that will introduce my startup and help get you started.
 ## Webservice Deliverable
 - **Node.js/Express HTTP Service**: Done! In index.js
 - **Static Middleware for Frontend**: Done! In index.js
-- **Calls to Third Party Endpoints**: 
-- **Backend Service Endpoints**: 
-- **Frontend Calls Service Endpoints**: 
+- **Calls to Third Party Endpoints**: In info.js I added a photo randomizer which I believe makes calls to a third party endpoint
+- **Backend Service Endpoints**: I was able to use the index.js code as a base with the GetScores/DisplayScores and I just swapped some stuff with what I needed to use
+- **Frontend Calls Service Endpoints**: I was able to base my code for storing characters off of the scores endpoint so I copy and pasted the code in archive.js (saveChar and updateCharactersLocal functions)
 
 [Notes](notes.md)

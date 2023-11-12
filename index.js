@@ -21,7 +21,7 @@ apiRouter.get('/characters', (_req, res) => {
 
 // DisplayCharacter
 apiRouter.post('/character', (req, res) => {
-  scores = updateCharacters(req.body, characters);
+  characters = updateCharacters(req.body, characters);
   res.send(characters);
 });
 
