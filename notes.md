@@ -90,6 +90,8 @@
 
 [SOP and CORS](/all-notes/WebServices/sop-cors.md)
 
+[Storage Services](/all-notes/WebServices/storage-service.md)
+
 [Strings](/all-notes/JavaScript/strings.md)
 
 [Technology Stacks](/all-notes/tech-stack.md)
