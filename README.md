@@ -65,4 +65,9 @@ An info page that will introduce my startup and help get you started.
 - **Backend Service Endpoints**: I was able to use the index.js code as a base with the GetScores/DisplayScores and I just swapped some stuff with what I needed to use
 - **Frontend Calls Service Endpoints**: I was able to base my code for storing characters off of the scores.js in simon so I copied and pasted the code in archive.js and made necesarry adjustments (saveChar and updateCharactersLocal functions)
 
+## DB Deliverable
+- **MongoDB Atlas DB Created**:
+- **Provides Backend Endpoints**:
+- **Stores Application Data in MongoDB**:
+
 [Notes](notes.md)
