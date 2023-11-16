@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const DB = require('./database.js');
 
 // The service port. In production the front-end code is statically hosted by the service on the same port.
 const port = process.argv.length > 2 ? process.argv[2] : 4000;
@@ -15,13 +16,13 @@ var apiRouter = express.Router();
 app.use(`/api`, apiRouter);
 
 // GetCharacters
-apiRouter.get('/characters', (_req, res) => {
+apiRouter.get('/characters', async (_req, res) => {
   res.send(characters);
 });
 
-// DisplayCharacter
-apiRouter.post('/character', (req, res) => {
-  characters = updateCharacters(req.body, characters);
+// SubmitCharacter
+apiRouter.post('/character', async (req, res) => {
+  const characters = DB.addCharacter(req.body);
   res.send(characters);
 });
 
