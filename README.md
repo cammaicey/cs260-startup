@@ -66,8 +66,8 @@ An info page that will introduce my startup and help get you started.
 - **Frontend Calls Service Endpoints**: I was able to base my code for storing characters off of the scores.js in simon so I copied and pasted the code in archive.js and made necesarry adjustments (saveChar and updateCharactersLocal functions)
 
 ## DB Deliverable
-- **MongoDB Atlas DB Created**:
-- **Provides Backend Endpoints**:
-- **Stores Application Data in MongoDB**:
+- **MongoDB Atlas DB Created**: Done!
+- **Provides Backend Endpoints**: Yes, in index.js under the comments "GetCharacter" and "SubmitCharacter"
+- **Stores Application Data in MongoDB**: I can see info about the characters including; name, details, and stats on the MongoDB website
 
 [Notes](notes.md)
