@@ -6,6 +6,8 @@
 
 [Async/Await](/all-notes/JavaScript/async-await.md)
 
+[Authorization Services](/all-notes/WebServices/authorization.md)
+
 [AWS EC2](/all-notes/WebServers/aws-EC2.md)
 
 [AWS Route 53](/all-notes/WebServers/aws-route53.md)
