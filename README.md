@@ -70,4 +70,10 @@ An info page that will introduce my startup and help get you started.
 - **Provides Backend Endpoints**: Yes, in index.js under the comments "GetCharacter" and "SubmitCharacter"
 - **Stores Application Data in MongoDB**: I can see info about the characters including; name, details, and stats on the MongoDB website
 
+## Login Deliverable
+- **User Registration**:
+- **User Authentication**:
+- **Use MongoDB to Store Credentials**:
+- **Restricts Functionality**:
+
 [Notes](notes.md)
