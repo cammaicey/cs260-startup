@@ -71,9 +71,9 @@ An info page that will introduce my startup and help get you started.
 - **Stores Application Data in MongoDB**: I can see info about the characters including; name, details, and stats on the MongoDB website
 
 ## Login Deliverable
-- **User Registration**:
-- **User Authentication**:
-- **Use MongoDB to Store Credentials**:
-- **Restricts Functionality**:
+- **User Registration**: New accounts are created in the database
+- **Existing User Authentication**: Users that already have an account will recieve and error if they try to make an account with the same info but if they login it will work
+- **Use MongoDB to Store Credentials**: Stores users and their characters
+- **Restricts Functionality**: You cannot acess any other pages while you're on index.html and when you click logout after logging in you have to log back in
 
 [Notes](notes.md)
