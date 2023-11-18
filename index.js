@@ -92,7 +92,8 @@ apiRouter.get('/characters', async (_req, res) => {
 
 // SubmitCharacter
 apiRouter.post('/character', async (req, res) => {
-  const characters = DB.addCharacter(req.body);
+  const character = { ...req.body, ip: req.ip };
+  await DB.addCharacter(character);
   res.send(characters);
 });
 

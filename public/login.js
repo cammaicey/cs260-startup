@@ -1,7 +1,7 @@
 (async () => {
   const userName = localStorage.getItem('userName');
   if (userName) {
-    document.querySelector('#uName').textContent = userName;
+    document.querySelector('#playerName').textContent = userName;
     setDisplay('loginControls', 'none');
     setDisplay('playControls', 'block');
   } else {
@@ -19,7 +19,7 @@ async function createUser() {
 }
 
 async function loginOrCreate(endpoint) {
-  const userName = document.querySelector('#uName')?.value;
+  const userName = document.querySelector('#uname')?.value;
   const password = document.querySelector('#password')?.value;
   const response = await fetch(endpoint, {
     method: 'post',
@@ -31,7 +31,7 @@ async function loginOrCreate(endpoint) {
 
   if (response.ok) {
     localStorage.setItem('userName', userName);
-    window.location.href = 'play.html';
+    window.location.href = 'home.html';
   } else {
     const body = await response.json();
     const modalEl = document.querySelector('#msgModal');
@@ -41,7 +41,7 @@ async function loginOrCreate(endpoint) {
   }
 }
 
-function play() {
+function start() {
   window.location.href = 'home.html';
 }
 
@@ -53,7 +53,7 @@ function logout() {
 }
 
 async function getUser(email) {
-  let scores = [];
+  let characters = [];
   // See if we have a user with the given email.
   const response = await fetch(`/api/user/${email}`);
   if (response.status === 200) {
@@ -61,11 +61,4 @@ async function getUser(email) {
   }
 
   return null;
-}
-
-function setDisplay(controlId, display) {
-  const playControlEl = document.querySelector(`#${controlId}`);
-  if (playControlEl) {
-    playControlEl.style.display = display;
-  }
 }

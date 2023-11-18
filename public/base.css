@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-.login {
+.form-control {
     width: 100%;
 }
 input[type=username] {
