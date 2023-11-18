@@ -6,7 +6,7 @@ const DB = require('./database.js');
 
 const authCookieName = 'token';
 
-// The service port. In production the front-end code is statically hosted by the service on the same port.
+// The service port may be set on the command line
 const port = process.argv.length > 2 ? process.argv[2] : 4000;
 
 // JSON body parsing using built-in middleware
@@ -15,7 +15,7 @@ app.use(express.json());
 // Use the cookie parser middleware for tracking authentication tokens
 app.use(cookieParser());
 
-// Serve up the front-end static content hosting
+// Serve up the applications static content
 app.use(express.static('public'));
 
 // Trust headers that are forwarded from the proxy so we can determine IP addresses
@@ -25,7 +25,6 @@ app.set('trust proxy', true);
 var apiRouter = express.Router();
 app.use(`/api`, apiRouter);
 
-// CreateAuth token for a new user
 // CreateAuth token for a new user
 apiRouter.post('/auth/create', async (req, res) => {
   if (await DB.getUser(req.body.email)) {
@@ -105,10 +104,6 @@ app.use(function (err, req, res, next) {
 // Return the application's default page if the path is unknown
 app.use((_req, res) => {
   res.sendFile('index.html', { root: 'public' });
-});
-
-app.listen(port, () => {
-  console.log(`Listening on port ${port}`);
 });
 
 // setAuthCookie in the HTTP response
