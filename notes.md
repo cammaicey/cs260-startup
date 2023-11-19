@@ -114,4 +114,6 @@
 
 [WebSocket](/all-notes/WebServices/websocket.md)
 
+[WebSocket Chat](/all-notes/WebServices/websocket-chat.md)
+
 [Writing Markdowns](/all-notes/writing-markdown.md)
