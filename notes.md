@@ -30,6 +30,8 @@
 
 [Debugging Node.js](/all-notes/WebServices/debug-node.js.md)
 
+[Debugging WebSocket](/all-notes/WebServices/debugging-websocket.md)
+
 [Destructuring](/all-notes/JavaScript/destructuring.md)
 
 [Document Obj Model](/all-notes/JavaScript/doc-obj-model.md)
