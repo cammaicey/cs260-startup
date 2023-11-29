@@ -84,6 +84,8 @@
 
 [Promises](/all-notes/JavaScript/js-promises.md)
 
+[React](/all-notes/WebFrameworks/react.md)
+
 [Regular Expressions](/all-notes/JavaScript/regex.md)
 
 [Responsive Design](/all-notes/CSS/responsive-design.md)
