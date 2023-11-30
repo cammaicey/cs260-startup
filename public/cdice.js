@@ -35,7 +35,36 @@ function generateChar() {
         charDetails.set("Alignment", document.querySelector ("#a").innerText);
         table.rows[0].cells[3].innerHTML = baseBackgrounds[Math.floor(Math.random() * baseBackgrounds.length)];
         charDetails.set("Background", document.querySelector ("#b").innerText);
-        //const jsoncharDetails = JSON.stringify(Array.from(charDetails));
-        //localStorage.setItem('Details', jsoncharDetails);
     }
 }
+
+// Functionality for peer communication using WebSocket
+
+function configureWebSocket() {
+    const protocol = window.location.protocol === 'http:' ? 'ws' : 'wss';
+    this.socket = new WebSocket(`${protocol}://${window.location.host}/ws`);
+    
+    this.socket.onmessage = async (event) => {
+      const msg = JSON.parse(await event.data.text());
+      
+      if (clicks === 1) {
+        this.displayMsg('player', msg.from, `rolled a ${msg.value.charDetails.get("Race")}`);
+      }
+    }; // Added closing parenthesis here
+  }
+  
+  function displayMsg(cls, from, msg) {
+    const chatText = document.querySelector('#player-messages');
+    chatText.innerHTML =
+      `<div class="event"><span class="${cls}-event">${from}</span> ${msg}</div>` + chatText.innerHTML;
+  }
+  
+  function broadcastEvent(from, type, value) {
+    const event = {
+      from: from,
+      type: type,
+      value: value,
+    };
+    this.socket.send(JSON.stringify(event));
+  }
+  
