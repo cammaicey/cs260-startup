@@ -52,6 +52,8 @@
 
 [Grid](/all-notes/CSS/grid.md)
 
+[Hooks](/all-notes/WebFrameworks/hooks.md)
+
 [HTML](/all-notes/HTML/html.md)
 
 [HTML Input Elements](/all-notes/HTML/html-input-elmts.md)
