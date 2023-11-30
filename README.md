@@ -76,4 +76,10 @@ An info page that will introduce my startup and help get you started.
 - **Use MongoDB to Store Credentials**: Stores users and their characters
 - **Restricts Functionality**: You cannot acess any other pages while you're on index.html and when you click logout after logging in you have to log back in
 
+## WebSocket Deliverable
+**Backend Listens**: 
+**Frontend Makes Connection**: 
+**Data Sent**: 
+**WebSocket Data Displayed**: 
+
 [Notes](notes.md)
