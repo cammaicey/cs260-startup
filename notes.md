@@ -88,6 +88,8 @@
 
 [React Components](/all-notes/WebFrameworks/react-components.md)
 
+[Reactivity](/all-notes/WebFrameworks/react-reactivity.md)
+
 [Regular Expressions](/all-notes/JavaScript/regex.md)
 
 [Responsive Design](/all-notes/CSS/responsive-design.md)
