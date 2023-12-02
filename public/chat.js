@@ -4,7 +4,7 @@ const socket = new WebSocket(`${protocol}://${window.location.host}/ws`);
 
 // Display that we have opened the webSocket
 socket.onopen = (event) => {
-  appendMsg('system', 'websocket', 'connected');
+  appendMsg('system', 'chat', 'connected');
 };
 
 // Display messages we receive from our friends
@@ -16,7 +16,7 @@ socket.onmessage = async (event) => {
 
 // If the webSocket is closed then disable the interface
 socket.onclose = (event) => {
-  appendMsg('system', 'websocket', 'disconnected');
+  appendMsg('system', 'chat', 'disconnected');
   document.querySelector('#name-controls').disabled = true;
   document.querySelector('#chat-controls').disabled = true;
 };
