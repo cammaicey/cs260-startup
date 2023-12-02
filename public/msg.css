@@ -1,56 +1,16 @@
-* {box-sizing: border-box;}
-.open-button {
-    padding:10px 40px;
-    background-color: black;
-    color: white;
-    font-family: "Lucida Handwriting", cursive;
-    font-size:15px;
-    max-width:300px;
-    border-radius:20px;
-    border: none;
-    cursor: pointer;
-    position: fixed;
-    bottom: 5px;
-    left: 15px;  
-  }
-  
-.chatbox {
-    text-align: right;
-    display: none;
+#chat-text {
+  padding: 1em 0;
 }
-.form-popup {
-    display: none;
-    position: fixed;
-    bottom: 0;
-    right: 15px;
-    border: 3px solid #f1f1f1;
-    z-index: 9;
-  }
-.form-container {
-    max-width: 300px;
-    padding: 10px;
+div .friend {
+  color: rgb(153, 87, 148);
+  margin-left: 0.5em;
 }
-.form-container textarea {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    border: none;
-    background: #f1f1f1;
-    resize: none;
-    min-height: 200px;
-  }
-  .form-container textarea:focus {
-    background-color: #ddd;
-    outline: none;
-  }
-  .form-container .button {
-    background-color: bisque;
-    color: black;
-    font-family: "Lucida Handwriting", cursive;
-    padding: 16px 20px;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    margin-bottom:10px;
-    opacity: 0.8;
-  }
+div .me {
+  color: rgb(87, 153, 117);
+}
+div .system {
+  color: rgb(225, 103, 10);
+}
+.name {
+  padding: 1em 0;
+}

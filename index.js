@@ -19,9 +19,6 @@ app.use(cookieParser());
 // Serve up the applications static content
 app.use(express.static('public'));
 
-// Serve up our webSocket client HTML
-app.use(express.static('./public'));
-
 // Trust headers that are forwarded from the proxy so we can determine IP addresses
 app.set('trust proxy', true);
 
