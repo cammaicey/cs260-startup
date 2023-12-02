@@ -78,8 +78,8 @@ An info page that will introduce my startup and help get you started.
 
 ## WebSocket Deliverable
 **Backend Listens**: Yes, using peerProxy.js
-**Frontend Makes Connection**: 
-**Data Sent**: 
+**Frontend Makes Connection**: Done!
+**Data Sent**: Done!
 **WebSocket Data Displayed**: 
 
 [Notes](notes.md)
