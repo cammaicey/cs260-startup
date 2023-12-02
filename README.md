@@ -77,7 +77,7 @@ An info page that will introduce my startup and help get you started.
 - **Restricts Functionality**: You cannot acess any other pages while you're on index.html and when you click logout after logging in you have to log back in
 
 ## WebSocket Deliverable
-**Backend Listens**: 
+**Backend Listens**: Yes, using peerProxy.js
 **Frontend Makes Connection**: 
 **Data Sent**: 
 **WebSocket Data Displayed**: 
