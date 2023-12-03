@@ -77,9 +77,9 @@ An info page that will introduce my startup and help get you started.
 - **Restricts Functionality**: You cannot acess any other pages while you're on index.html and when you click logout after logging in you have to log back in
 
 ## WebSocket Deliverable
-**Backend Listens**: Yes, using peerProxy.js
-**Frontend Makes Connection**: Done!
-**Data Sent**: Done!
-**WebSocket Data Displayed**: 
+**Backend Listens**: Yes, using index.js
+**Frontend Makes Connection**: Yes, in the chat.js file.
+**Data Sent**: I have to code all prepped but for some reason it does let you send messages even though it says the "chat" aka websocket is connected.
+**WebSocket Data Displayed**: Because of the above stuff this doesn't work.
 
 [Notes](notes.md)
