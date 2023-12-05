@@ -90,6 +90,8 @@
 
 [React Components](/all-notes/WebFrameworks/react-components.md)
 
+[React Router](/all-notes/WebFrameworks/router.md)
+
 [Reactivity](/all-notes/WebFrameworks/react-reactivity.md)
 
 [Regular Expressions](/all-notes/JavaScript/regex.md)
