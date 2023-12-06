@@ -106,6 +106,8 @@
 
 [Security](/all-notes/assorted-topics/security.md)
 
+[Security Practice](/all-notes/assorted-topics/security-practice.md)
+
 [Selectors](/all-notes/CSS/selectors.md)
 
 [Service Design](/all-notes/WebServices/service-design.md)
