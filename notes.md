@@ -102,6 +102,8 @@
 
 [Scope](/all-notes/JavaScript/scope.md)
 
+[Security](/all-notes/WebFrameworks/security.md)
+
 [Selectors](/all-notes/CSS/selectors.md)
 
 [Service Design](/all-notes/WebServices/service-design.md)
