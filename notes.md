@@ -80,6 +80,8 @@
 
 [Node.js](/all-notes/WebServices/node.js.md)
 
+[OWASP Top 10](/all-notes/assorted-topics/OWASP-top-10.md)
+
 [PM2](/all-notes/WebServices/pm2.md)
 
 [Ports](/all-notes/WebServices/ports.md)
