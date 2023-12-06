@@ -122,6 +122,8 @@
 
 [URL](/all-notes/WebServices/url.md)
 
+[Vite](/all-notes/WebFrameworks/vite.md)
+
 [Web Frameworks Intro](/all-notes/WebFrameworks/web-frameworks-intro.md)
 
 [Web Services Intro](/all-notes/WebServices/ws-intro.md)
