@@ -102,7 +102,7 @@
 
 [Scope](/all-notes/JavaScript/scope.md)
 
-[Security](/all-notes/WebFrameworks/security.md)
+[Security](/all-notes/assorted-topics/security.md)
 
 [Selectors](/all-notes/CSS/selectors.md)
 
