@@ -106,6 +106,8 @@
 
 [Scope](/all-notes/JavaScript/scope.md)
 
+[Search Engine Optimization](/all-notes/assorted-topics/serach-engine-optim.md)
+
 [Security](/all-notes/assorted-topics/security.md)
 
 [Security Practice](/all-notes/assorted-topics/security-practice.md)
