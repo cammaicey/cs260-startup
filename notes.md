@@ -124,6 +124,8 @@
 
 [Types, Operators, Conditionals, and Loops](/all-notes/JavaScript/typs-ops-cnds-lps.md)
 
+[TypeScript](/all-notes/assorted-topics/typescript.md)
+
 [UI Testing](/all-notes/WebServices/ui-testing.md)
 
 [URL](/all-notes/WebServices/url.md)
