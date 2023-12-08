@@ -34,6 +34,8 @@
 
 [Destructuring](/all-notes/JavaScript/destructuring.md)
 
+[Device APIs](/all-notes/assorted-topics/device-APIs.md)
+
 [Document Obj Model](/all-notes/JavaScript/doc-obj-model.md)
 
 [Domain Names](/all-notes/WebServers/domain-names.md)
