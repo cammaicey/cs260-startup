@@ -82,4 +82,10 @@ An info page that will introduce my startup and help get you started.
 **Data Sent**: I have to code all prepped but for some reason it does let you send messages even though it says the "chat" aka websocket is connected.
 **WebSocket Data Displayed**: Because of the above stuff this doesn't work.
 
+## React Deliverable
+**Bundled**:
+**Components**:
+**Router**:
+**Hooks**:
+
 [Notes](notes.md)
