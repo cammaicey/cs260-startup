@@ -90,8 +90,6 @@
 
 [Ports](/all-notes/WebServices/ports.md)
 
-[Progressive Web Applications](/all-notes/assorted-topics/progressive-web-app.md)
-
 [Promises](/all-notes/JavaScript/js-promises.md)
 
 [React](/all-notes/WebFrameworks/react.md)
