@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+.form-control {
+    width: 100%;
+}
+input[type=username] {
+    background-color: white;
+    border: 2px solid brown;
+}
+input[type=password] {
+    background-color: white;
+    border: 2px solid brown;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-width: 375px;
+    font-family: "Lucida Handwriting", cursive;
+    background-color: brown;
+    margin: 0;
+    text-align: center;
+}
+header {
+    text-align: left;
+    color: white;
+}
+menu {
+    list-style-type: none;
+}
+main {
+    flex: 1 calc(100vh - 110px);
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar-brand {
+    padding: 0em 0.8em;
+    border: bottom;
+    font-size: 30px;
+    text-align: center;
+    float: left;
+}
+.nav-item {
+    float: left;
+    text-align: center;
+    padding: 0.5em 0.8em;
+    text-decoration: none;
+    font-size: 17px;
+}
+footer {
+    text-align: right;
+    flex: 0 30px;
+    display: block;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.button {
+    padding:5px 20px;
+    background-color: tan;
+    color: black;
+    font-family: "Lucida Handwriting", cursive;
+    font-size:15px;
+    max-width:300px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.abutton {
+    padding:5px 20px;
+    background-color: green;
+    color: white;
+    font-family: "Lucida Handwriting", cursive;
+    font-size:15px;
+    max-width:300px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.dbutton {
+    padding:5px 20px;
+    background-color: darkred;
+    color: white;
+    font-family: "Lucida Handwriting", cursive;
+    font-size:15px;
+    max-width:300px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.info {
+    line-height: 25px;
+}
+
+#name {
+    display: none;
+    position: relative;
+    bottom: 100px;
+    left: 350px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 60px;
+}
+
+#charD {
+    display: none;
+    position: relative;
+    bottom: 60px;
+    left: 350px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#d1 {
+    display: flex;
+    position: relative;
+    bottom: 50px;
+    right: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#d2 {
+    display: flex;
+    position: relative;
+    bottom: 50px;
+    right: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#a1 {
+    display: flex;
+    position: relative;
+    bottom: 50px;
+    left: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#a2 {
+    display: flex;
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
