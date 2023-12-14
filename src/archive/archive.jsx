@@ -2,6 +2,7 @@ import React from 'react';
 import './tables.css';
 
 export function Archive() {
+  const [nameToDisplay, setNameToDisplay] = useState('');
   class Char { 
     constructor(name, details, stats) {
         this.name = name;
