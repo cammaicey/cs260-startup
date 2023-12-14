@@ -41,7 +41,7 @@ export function Chat() {
   function appendMsg(cls, from, msg) {
     const chatText = document.querySelector('#chat-text');
     chatText.innerHTML =
-      `<div><span class="${cls}">${from}</span>: ${msg}</div>` +
+      `<div><span className="${cls}">${from}</span>: ${msg}</div>` +
       chatText.innerHTML;
   }
 
@@ -62,7 +62,7 @@ export function Chat() {
 
   return (
     <main>
-            <div class="name">
+            <div className="name">
             <fieldset id="name-controls">
                 <legend>My Name</legend>
                 <input id="my-name" type="text" />

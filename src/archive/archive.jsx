@@ -91,17 +91,17 @@ export function Archive() {
   }
 
   return (
-    <main class="container-fluid">
-            <table class="table" id="cTable">
-                <thead class="th">
-                    <tr class="row">
+    <main className="container-fluid">
+            <table className="table" id="cTable">
+                <thead className="th">
+                    <tr className="row">
                         <th><b>Your Characters</b></th>
                     </tr>
                 </thead>
-                <tbody class="tb" id="tb">
-                    <tr class="row">
+                <tbody className="tb" id="tb">
+                    <tr className="row">
                         <td>
-                            Example: Henry Porter <button class="button" type="button" onclick="displayChar()">Display</button>
+                            Example: Henry Porter <button className="button" type="button" onclick="displayChar()">Display</button>
                         </td>
                     </tr>
                 </tbody>
