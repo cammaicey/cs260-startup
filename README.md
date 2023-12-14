@@ -83,9 +83,9 @@ An info page that will introduce my startup and help get you started.
 **WebSocket Data Displayed**: Because of the above stuff this doesn't work.
 
 ## React Deliverable
-**Bundled**:
+**Bundled**: Done! I think...
 **Components**:
-**Router**:
+**Router**: I think I'm doing this correct? This assignment is hard :sweat_smile:
 **Hooks**:
 
 [Notes](notes.md)
