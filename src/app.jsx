@@ -19,29 +19,29 @@ function App() {
       <div className='body bg-dark text-light'>
         <header className='container-fluid'>
           <nav className='navbar fixed-top navbar-light'>
-          <a class="navbar-brand" href="#">RC</a>
+            <a className="navbar-brand" href="#">RC</a>
             <menu className='navbar-nav'>
               <li className='nav-item'>
-                <NavLink className='nav-link' to='home'>
+                <NavLink className='nav-link' to='/home' exact>
                   Home
                 </NavLink>
               </li>
               {authState === AuthState.Authenticated && (
-                <li className='nav-item'>
-                  <NavLink className='nav-link' to='chat'>
-                    Chat
-                  </NavLink>
-                </li>
-              )}
-              {authState === AuthState.Authenticated && (
-                <li className='nav-item'>
-                  <NavLink className='nav-link' to='archive'>
-                    Archive
-                  </NavLink>
-                </li>
+                <>
+                  <li className='nav-item'>
+                    <NavLink className='nav-link' to='/chat'>
+                      Chat
+                    </NavLink>
+                  </li>
+                  <li className='nav-item'>
+                    <NavLink className='nav-link' to='/archive'>
+                      Archive
+                    </NavLink>
+                  </li>
+                </>
               )}
               <li className='nav-item'>
-                <NavLink className='nav-link' to='info'>
+                <NavLink className='nav-link' to='/info'>
                   Info
                 </NavLink>
               </li>
@@ -77,7 +77,7 @@ function App() {
         </Routes>
 
         <footer>
-            <a href="https://github.com/cammaicey/startup">My Github Repo</a>
+          <a href="https://github.com/cammaicey/startup">My Github Repo</a>
         </footer>
       </div>
     </BrowserRouter>
@@ -89,3 +89,4 @@ function NotFound() {
 }
 
 export default App;
+

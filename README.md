@@ -84,7 +84,7 @@ An info page that will introduce my startup and help get you started.
 
 ## React Deliverable
 **Bundled**: Done! I think...
-**Components**:
+**Components**: Made but not working right now :/
 **Router**: I think I'm doing this correct? This assignment is hard :sweat_smile:
 **Hooks**:
 
