@@ -4,7 +4,7 @@ import { Login } from './login/login';
 import { Home } from './home/home';
 import { Archive } from './archive/archive';
 import { Info } from './info/info';
-import { Chat } from '.chat/chat';
+import { Chat } from './chat/chat';
 import { AuthState } from './login/authState';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './app.css';
