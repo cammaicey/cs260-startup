@@ -69,6 +69,7 @@ function App() {
             }
             exact
           />
+          <Route path='/' element={<Login />} exact />
           <Route path='/home' element={<Home userName={userName} />} />
           <Route path='/archive' element={<Archive />} />
           <Route path='/info' element={<Info />} />
