@@ -22,31 +22,31 @@ function App() {
           <a class="navbar-brand" href="#">RC</a>
             <menu className='navbar-nav'>
               <li className='nav-item'>
-                <NavLink className='nav-link' to=''>
+                <NavLink className='nav-link' to='home'>
                   Home
                 </NavLink>
               </li>
               {authState === AuthState.Authenticated && (
                 <li className='nav-item'>
-                  <NavLink className='nav-link' to='play'>
+                  <NavLink className='nav-link' to='chat'>
                     Chat
                   </NavLink>
                 </li>
               )}
               {authState === AuthState.Authenticated && (
                 <li className='nav-item'>
-                  <NavLink className='nav-link' to='scores'>
+                  <NavLink className='nav-link' to='archive'>
                     Archive
                   </NavLink>
                 </li>
               )}
               <li className='nav-item'>
-                <NavLink className='nav-link' to='about'>
+                <NavLink className='nav-link' to='info'>
                   Info
                 </NavLink>
               </li>
               <li className='nav-item'>
-                <NavLink className='nav-link' to='about'>
+                <NavLink className='nav-link' to=''>
                   Logout
                 </NavLink>
               </li>
@@ -69,7 +69,6 @@ function App() {
             }
             exact
           />
-          <Route path='/' element={<Login />} exact />
           <Route path='/home' element={<Home userName={userName} />} />
           <Route path='/archive' element={<Archive />} />
           <Route path='/info' element={<Info />} />
