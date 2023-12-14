@@ -67,47 +67,47 @@ export function Archive() {
 
 
   function storeArchive() {
-      document.querySelector("#ability-btn").disabled = true; // turn off button
-      const cName = document.querySelector("#cname"); //get the name they made
-      // store local storage data into archive
-      const character = new Char(cName.value, JSON.stringify(Array.from(charDetails)), JSON.stringify(Array.from(ability_scores))); // create an obj
-      saveChar(character);
-      // make their spot on the table
-      let t = document.querySelector("#cTable"); // ref to table
-      let tb = document.querySelector("#tb"); // ref to tbody
-      let newR = document.createElement("tr"); // makes row
-      let nCell = document.createElement("td"); // makes data
-      nCell.textContent = character.get_name; // adds name to td
-      newR.appendChild(nCell);
-    // tb.append(newR); // null error I think it's an issue with the tbody element
-    // sends user to archive
-      window.location.href = "archive.html";
+    document.querySelector("#ability-btn").disabled = true;
+    const cName = document.querySelector("#cname").value;
+
+    const character = new Char(cName, JSON.stringify(Array.from(charDetails)), JSON.stringify(Array.from(ability_scores)));
+    saveChar(character);
+
+    let t = document.querySelector("#cTable");
+    let tb = document.querySelector("#tb");
+    let newR = document.createElement("tr");
+    let nCell = document.createElement("td");
+    nCell.textContent = character.getName(); // use the getName method
+    newR.appendChild(nCell);
+    tb.appendChild(newR); // append to tbody, not null error
+
+    setNameToDisplay(character.getName());
   }
 
   function displayChar() {
-      document.querySelector("#name").style.display = "flex";
-      document.querySelector("#charD").style.display = "flex";
-      document.querySelector("#name").value = character.get_name;
+    document.querySelector("#name").style.display = "flex";
+    document.querySelector("#charD").style.display = "flex";
+    document.querySelector("#name").textContent = nameToDisplay;
   }
 
   return (
     <main className="container-fluid">
-            <table className="table" id="cTable">
-                <thead className="th">
-                    <tr className="row">
-                        <th><b>Your Characters</b></th>
-                    </tr>
-                </thead>
-                <tbody className="tb" id="tb">
-                    <tr className="row">
-                        <td>
-                            Example: Henry Porter <button className="button" type="button" onclick="displayChar()">Display</button>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <h1 id="name">Henry Porter</h1>
-            <div id="charD">
+      <table className="table" id="cTable">
+        <thead className="th">
+          <tr className="row">
+            <th><b>Your Characters</b></th>
+          </tr>
+        </thead>
+        <tbody className="tb" id="tb">
+          <tr className="row">
+            <td>
+              Example: Henry Porter <button className="button" type="button" onClick={displayChar}>Display</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h1 id="name">{nameToDisplay}</h1>
+      <div id="charD">
                 <div id="descript">
                     <h2 id="d1">Race</h2>
                     <p id="d2">Human</p>
