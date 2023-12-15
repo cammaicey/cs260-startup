@@ -1,47 +1,56 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './home.css';
 
 export function Home() {
   //cdice file
-  let baseRaces = [
+  const [baseRaces] = useState([
     'Dwarf', 'Elf', 'Halfling',
     'Human', 'Dragonborn', 'Gnome',
     'Half-Elf', 'Half-Orc', 'Tiefling'
-  ];
-  let baseClasses = [
-      'Barbarian', 'Bard', 'Cleric', 
-      'Druid', 'Fighter', 'Monk', 
-      'Paladin', 'Ranger', 'Rogue', 
-      'Sorcerer', 'Warlock', 'Wizard'
-    ];
-  let alignments = [
-      'Lawful Good', 'Neutral Good', 'Chaotic Good',
-      'Lawful Neutral', 'True Neutral', 'Chaotic Neutral',
-      'Lawful Evil', 'Neutral Evil', 'Chaotic Evil'
-    ];
-  let baseBackgrounds = [
-      'Acolyte', 'Charlatan', 'Criminal',
-      'Entertainer', 'Folk Hero', 'Guild Artisan',
-      'Hermit', 'Noble', 'Outlander', 'Sage', 'Sailor',
-      'Soldier', 'Urchin'
-    ];
-  let charDetails = new Map();
-  let clicks = 0;
+  ]);
 
-  function generateChar() {
-      if (clicks == 0 ) {
-          clicks = 1;
-          let table = document.getElementById("charT");
-          table.rows[0].cells[0].innerHTML = baseRaces[Math.floor(Math.random() * baseRaces.length)];
-          charDetails.set("Race", document.querySelector ("#r").innerText);
-          table.rows[0].cells[1].innerHTML = baseClasses[Math.floor(Math.random() * baseClasses.length)];
-          charDetails.set("Class", document.querySelector ("#c").innerText);
-          table.rows[0].cells[2].innerHTML = alignments[Math.floor(Math.random() * alignments.length)];
-          charDetails.set("Alignment", document.querySelector ("#a").innerText);
-          table.rows[0].cells[3].innerHTML = baseBackgrounds[Math.floor(Math.random() * baseBackgrounds.length)];
-          charDetails.set("Background", document.querySelector ("#b").innerText);
-      }
-  }
+  const [baseClasses] = useState([
+    'Barbarian', 'Bard', 'Cleric',
+    'Druid', 'Fighter', 'Monk',
+    'Paladin', 'Ranger', 'Rogue',
+    'Sorcerer', 'Warlock', 'Wizard'
+  ]);
+
+  const [alignments] = useState([
+    'Lawful Good', 'Neutral Good', 'Chaotic Good',
+    'Lawful Neutral', 'True Neutral', 'Chaotic Neutral',
+    'Lawful Evil', 'Neutral Evil', 'Chaotic Evil'
+  ]);
+
+  const [baseBackgrounds] = useState([
+    'Acolyte', 'Charlatan', 'Criminal',
+    'Entertainer', 'Folk Hero', 'Guild Artisan',
+    'Hermit', 'Noble', 'Outlander', 'Sage', 'Sailor',
+    'Soldier', 'Urchin'
+  ]);
+
+  const [charDetails, setCharDetails] = useState(new Map());
+  const [clicks, setClicks] = useState(0);
+  
+
+  useEffect(() => {
+    if (clicks === 1) {
+      const table = document.getElementById("charT");
+      const randomRace = baseRaces[Math.floor(Math.random() * baseRaces.length)];
+      const randomClass = baseClasses[Math.floor(Math.random() * baseClasses.length)];
+      const randomAlignment = alignments[Math.floor(Math.random() * alignments.length)];
+      const randomBackground = baseBackgrounds[Math.floor(Math.random() * baseBackgrounds.length)];
+
+      table.rows[0].cells[0].innerHTML = randomRace;
+      setCharDetails(prevDetails => new Map(prevDetails).set("Race", randomRace));
+      table.rows[0].cells[1].innerHTML = randomClass;
+      setCharDetails(prevDetails => new Map(prevDetails).set("Class", randomClass));
+      table.rows[0].cells[2].innerHTML = randomAlignment;
+      setCharDetails(prevDetails => new Map(prevDetails).set("Alignment", randomAlignment));
+      table.rows[0].cells[3].innerHTML = randomBackground;
+      setCharDetails(prevDetails => new Map(prevDetails).set("Background", randomBackground));
+    }
+  }, [clicks, baseRaces, baseClasses, alignments, baseBackgrounds]);
 
   //sdice file
   const nums = [1, 2, 3, 4, 5, 6];
@@ -51,10 +60,11 @@ export function Home() {
   let ability_scores = new Map();
   let ddm = document.querySelector("#ability-btn").disabled = true;
 
-  function generateRoll() {
-      let tdisplay = document.querySelector("#total");
-      let rleft = document.querySelector("#rolls-left")
-      let table = document.getElementById("statT");
+    function generateRoll() {
+        let tdisplay = document.querySelector("#total");
+        let rleft = document.querySelector("#rolls-left");
+        let table = document.getElementById("statT");
+        let tdata;
       if (clicks == 1) {
           if (s_clicks != 0) {
               s_clicks -= 1;
@@ -66,18 +76,18 @@ export function Home() {
                   total += roll_num;
                   if (roll_num < lowest) {
                       lowest = roll_num;
-                  }
+                    }
                   if (i == 3) {
                       total -= lowest;
                       lowest = 6;
-                  }
-              } 
+                    }
+                } 
               tdisplay.innerHTML = "Total: " + total;
               document.querySelector("#ability-btn").disabled = false;
               document.querySelector("#stat-btn").disabled = true;
-          }
-      }
-  }
+            }
+        }
+    }
 
   function dropdownMenu() {
       if (s_clicks != 6) {  
@@ -134,7 +144,7 @@ export function Home() {
               <input type="text" id="cname" placeholder="Name" required/>
           </div>
           <div>
-              <button className="button" id="cbtn" onclick={generateChar()}>Roll Here</button>
+            <button className="button" id="cbtn" onClick={generateChar}>Roll Here</button>
           </div>
           <div>
               <table id="statT">
