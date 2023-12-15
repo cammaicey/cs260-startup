@@ -1,29 +1,46 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './msg.css';
 
 export function Chat() {
+  const [socket, setSocket] = useState(null);
+  const [nameControlsDisabled, setNameControlsDisabled] = useState(false);
+  const [chatControlsDisabled, setChatControlsDisabled] = useState(true);
+  const [chatText, setChatText] = useState('');
+
+  useEffect(() => {
     // Adjust the webSocket protocol to what is being used for HTTP
-  const protocol = window.location.protocol === 'http:' ? 'ws' : 'wss';
-  const socket = new WebSocket(`${protocol}://${window.location.host}/ws`);
+    const protocol = window.location.protocol === 'http:' ? 'ws' : 'wss';
+    const newSocket = new WebSocket(`${protocol}://${window.location.host}/ws`);
+    setSocket(newSocket);
 
-  // Display that we have opened the webSocket
-  socket.onopen = (event) => {
-    appendMsg('system', 'chat', 'connected');
-  };
+    // Clean up on component unmount
+    return () => {
+      newSocket.close();
+    };
+  }, []); // Empty dependency array means this effect runs once when the component mounts
 
-  // Display messages we receive from our friends
-  socket.onmessage = async (event) => {
-    const text = await event.data.text();
-    const chat = JSON.parse(text);
-    appendMsg('friend', chat.name, chat.msg);
-  };
+  useEffect(() => {
+    if (socket) {
+      // Display that we have opened the webSocket
+      socket.onopen = (event) => {
+        appendMsg('system', 'chat', 'connected');
+      };
 
-  // If the webSocket is closed then disable the interface
-  socket.onclose = (event) => {
-    appendMsg('system', 'chat', 'disconnected');
-    document.querySelector('#name-controls').disabled = true;
-    document.querySelector('#chat-controls').disabled = true;
-  };
+      // Display messages we receive from our friends
+      socket.onmessage = async (event) => {
+        const text = await event.data.text();
+        const chat = JSON.parse(text);
+        appendMsg('friend', chat.name, chat.msg);
+      };
+
+      // If the webSocket is closed then disable the interface
+      socket.onclose = (event) => {
+        appendMsg('system', 'chat', 'disconnected');
+        setNameControlsDisabled(true);
+        setChatControlsDisabled(true);
+      };
+    }
+  }, [socket]);
 
   // Send a message over the webSocket
   function sendMessage() {
@@ -39,10 +56,9 @@ export function Chat() {
 
   // Create one long list of messages
   function appendMsg(cls, from, msg) {
-    const chatText = document.querySelector('#chat-text');
-    chatText.innerHTML =
-      `<div><span className="${cls}">${from}</span>: ${msg}</div>` +
-      chatText.innerHTML;
+    setChatText((prevChatText) => 
+      `<div><span className="${cls}">${from}</span>: ${msg}</div>` + prevChatText
+    );
   }
 
   // Send message on enter keystroke
@@ -54,27 +70,26 @@ export function Chat() {
   });
 
   // Disable chat if no name provided
-  const chatControls = document.querySelector('#chat-controls');
   const myName = document.querySelector('#my-name');
   myName.addEventListener('keyup', (e) => {
-    chatControls.disabled = myName.value === '';
+    setChatControlsDisabled(myName.value === '');
   });
 
   return (
     <main>
-            <div className="name">
-            <fieldset id="name-controls">
-                <legend>My Name</legend>
-                <input id="my-name" type="text" />
-            </fieldset>
-            </div>
+      <div className="name">
+        <fieldset id="name-controls" disabled={nameControlsDisabled}>
+          <legend>My Name</legend>
+          <input id="my-name" type="text" />
+        </fieldset>
+      </div>
 
-            <fieldset id="chat-controls" disabled>
-            <legend>Chat</legend>
-            <input id="new-msg" type="text" />
-            <button onclick="sendMessage()">Send</button>
-            </fieldset>
-            <div id="chat-text"></div>
-        </main>
+      <fieldset id="chat-controls" disabled={chatControlsDisabled}>
+        <legend>Chat</legend>
+        <input id="new-msg" type="text" />
+        <button onClick={sendMessage}>Send</button>
+      </fieldset>
+      <div id="chat-text" dangerouslySetInnerHTML={{ __html: chatText }}></div>
+    </main>
   );
 }
