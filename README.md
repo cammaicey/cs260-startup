@@ -86,6 +86,6 @@ An info page that will introduce my startup and help get you started.
 **Bundled**: Done! I think...
 **Components**: Made but not working right now :/
 **Router**: I think I'm doing this correct? This assignment is hard :sweat_smile:
-**Hooks**:
+**Hooks**: 
 
 [Notes](notes.md)
